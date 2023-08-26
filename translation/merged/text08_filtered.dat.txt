@@ -1,0 +1,412 @@
+
+
+
+
+;S29
+
+;I
+
+;D28P"体育館にやって来ました。"=3600
+D28P"You arrive at the gymnasium."=3600
+;P"男の人が立っています。"
+P"Some guys are standing there."
+;P"藤原先生が立っています。"
+P"The teacher, Fujiwara, is standing there."
+;N
+
+;L"体育館"128120383343=3600
+L"Gymnasium"128120383343=3600
+
+;L"男の人"212160286290
+L"Man"212160286290
+
+;L"藤原先生"212160286290
+L"Fujiwara"212160286290
+
+;C"話す/,*/男/藤/"
+C"Talk/,*/Man/Fujiwara/"
+
+;?00
+
+;P"「$5こんな所で何をしている。早く逃げるんだ」"+00
+P"[$5What are you doing here? Hurry and get out of/here.]"+00
+;P"「$5ゴチャゴチャ言うな。皆、校庭に集まっているんだ」"+00
+P"[$5No complaints. Everyone's gathering on/campus.]"+00
+;P"「$5さあ、早く行くんだ」/あなたは校庭に追いやられてしまいました。"J33
+P"[$5Well, hurry up and go.] You were driven away to/the campus."J33
+;C"尋/,体育/"
+C"Ask/,Gym/"
+
+;P"「$5何をくだらん事、言っている。さっさと避難しろ！」"
+P"[$5What nonsense are you going on about!? Take/refuge quickly!]"
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$5校庭にいなかったか？おかしいな・・・」"
+P"[$5He's not on the campus? Strange...]"
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"「$5さぁ、知らんな」"
+P"[$5Who knows.]"
+;C"尋/,*/男/藤/"
+C"Ask/,*/Man/Fujiwara/"
+
+;?01
+
+;P"「$5戦争が始まったんだ」"+01
+P"[$5War has begun.]"+01
+;P"「$5誰が始めたかなど、分るものか」"+01
+P"[$5I don't know who started it.]"+01
+;P"「$5オレだって知りたい位だ。それより、早く逃げろ！！」"P"あなたは、校庭に追いやられてしまいました。"J33
+P"[ $5I'd like to know more, myself. More/importantly, hurry and get out of here!]"P"You were/driven away to campus."J33
+;C"尋/,外/"
+C"Ask/,Outside/"
+
+;P"「$5外で何が起こっているのか私にもわからん」"
+P"[$5I don't know what's going on outside either.]"
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;=3600
+
+;P"「$5どこへ行く！先生の言う事が聞けんのか！」"J30
+P"[$5Where are you going! Didn't you hear what the/teacher said?]"J30
+;P"他の所を調べに行きましょう。"J06
+P"Let's go look elsewhere."J06
+;C"戦う/,*/男/藤/"
+C"Fight/,*/Man/Fujiwara/"
+
+;=3600
+
+;P"「$5こら、何をする！ようし、おしおきしてやるぞ！」"J30
+P"[$5Hey, what are you doing!? All right, I'm gonna/punish you! ]"J30
+;P"あきらめて、言う事を聞いた方が良いみたいですよ。"
+P"It seems better to say [I give up] at this rate."
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$5確かにこの記事と今度の戦争は、関係あるかも知れんが、それより、お前も早く校庭に行くんだ」"
+P"[$5It's true there may be some relation between/this article and the current war, but more/importantly, you should hurry to campus.]"
+;C"見る/,藤/"
+C"Look/,Fujiwara/"
+
+;P"体育の先生らしく、すごい体格をしています。"
+P"He has an amazing physique, like a phys-ed/teacher."
+;C"見る/,男/"
+C"Look/,Man/"
+
+;P"「$5何を見てるんだ」"
+P"[$5What are you looking at?]"
+;C"調べ/見る/"
+C"Examine/Look/"
+
+;P"「$5何をキョロキョロしているんだ」"
+P"[$5What are you looking around for?]"
+;C"逃げ/"
+C"Escape/"
+
+;=3600
+
+;=0002
+
+;P"あなたは男の人の言う通り、校庭へ避難しました。"J33
+P"You took refuge on campus, like you were told."J33
+;P"「$5どこへ行く！先生の言う事が聞けんのか！」"J30
+P"[$5Where are you going!? Didn't you hear what the/teacher said?]"J30
+;P"「$5どこへ行く！校庭はあっちだ」/あなたは、校庭へ追いやられてしまいました。"J33
+P"[$5Where are you going? The campus is over there!]/You were driven away to the campus."J33
+;S30
+
+;I
+
+;D29P"男の人は信じられぬ速さで、あなたに次々と間接技を掛け始めました。"P"あなたは、余りの見事さに反撃できません。"P"「$5お前、見かけん顔だな。オレはレスリング部の顧問で藤原と言うんだ。これがサブミッションて奴よ」"P"あなたは、ひたすら謝ってやっとサブミッション地獄を抜け出しました。":2001:9001:3601WJ29
+;(???)
+D29P"He starts hitting you with joint locks in/succession at unbelievable speed."P"You are not able/to counterattack  very well."P"$5You're an unfamiliar/face! I'm the wrestling department adviser, Fujiwara./This here's my submission hold!]"P"You were finally able/to sneak out of his submission hell by apologizing/earnestly.":2001:9001:3601WJ29
+
+;S31
+
+;I
+
+;=5203
+
+;=2800
+
+;=1700
+
+;J24
+
+;D30P"放送室に来ました。機械が一杯並んでいます。/放送部員がいました。"P"「$7だめだよ、勝手に入って来ちゃ」"
+D30P"You arrive at the broadcast room. All kinds of/equipment is lined up. The broadcast staff are/here."P"[$7You can't just go in there on your own.]"
+;N
+
+;L"放送部員"261166345314L"放送室"128120383343L"機械"128234202343
+L"Broadcast Staff"261166345314L"Broadcast Room"128120383343L"Machine"128234202343
+
+;C"話す/,*/部員/"
+C"Talk/,*/Staff/"
+
+;?00
+
+;P"「$7え？ここは、立入禁止だよ。それより、早く校庭に集まらないとだめだよ」"P"「$7体育の藤原先生に見つかるとまずいんだよ」"+00
+P"[$7Huh? This area is off limits. More importantly,/you have to hurry and gather on campus.]"P"[$7It/won't be good if Coach Fujiwara finds you!]"+00
+;=5201
+
+;P"「$7藤原先生のサブミッションは恐ろしいんだから」"+00
+P"[ $7Fujiwara's submission hold is dreadful!]"+00
+;P"「$7君だってサブミッションの恐さを知ってるだろ」"+00
+P"[$7You know the fear of his submission hold too,/right?]"+00
+;P"「$7外で何か大変な事が起こってるらしいよ」"+00
+P"[$7It seems like something serious is going on/outside...]"+00
+;P"「$7何が起こってるか、こっちが聞きたいよ」"
+P"[$7Could you tell me what's going on?]"
+;C"尋/話す/,優介/"
+C"Ask/Talk/,Yuusuke/"
+
+;P"「$7え？校庭にいなかったかい。じゃあ、教室に残ってるのかな・・・」"
+P"[$7Huh? He wasn't on the campus. Then the/classrooms are all that's left, I guess.]"
+;C"見る/調べ/,優介/"
+C"Look/Examine/,Yuusuke/"
+
+;P"ここには、いません。^^本当だってば！"
+P"They aren't here.^^I'm telling the truth!"
+;C"見る/,部員/"
+C"Look/,Staff/"
+
+;P"落ち着かない様子です。"
+P"They appear unsettled."
+;C"調べ/,部員/"
+C"Examine/,Staff/"
+
+;P"「$7お、おい。くすぐったいからやめろ！」"
+P"[$7H-Hey. That tickles, stop it!]"
+;C"尋/,機械/"
+C"Ask/,Machine/"
+
+;P"「$7校内放送の機械さ。勝手にさわるなよ」"
+P"[$7It's a machine for broadcasting within the/school. Don't fiddle with it.]"
+;C"調べ/,機械/"
+C"Examine/,Machine/"
+
+;P"「$7だめだよ、勝手にさわっちゃ」"
+P"[$7Don't go touching everything.]"
+;C"使う/,機械/"
+C"Use/,Machine/"
+
+;P"「$7わっ！何すんだよ。これはオモチャじゃないんだぜ」"
+P"[$7Wah-! What are you doing!? This is not a toy!]"
+;C"見る/,機械/"
+C"Look/,Machine/"
+
+;P"ごちゃごちゃしてて、何が何だかわかりません。"
+P"It's all a jumble. You have no idea what's what."
+;C"見る/調べ/,室/"
+C"Look/Examine/,Room/"
+
+;P"機械が所せましと並んでいます。"
+P"Equipment is lined up in a confined space."
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"別の場所を調べに行きましょう。"J06
+P"Let's go look someplace else."J06
+;C"尋/"
+C"Ask/"
+
+;P"「$7何が起こっているか、こっちが知りたいよ」"
+P"[$7What's going on? I'd like to know, myself.]"
+;S32
+
+;I
+
+;D31P"教室を調べて回ろうとしましたが、廊下はパニック状態です。"P"思うように進めません。"
+D31P"You went around to examine the classrooms, but/the corridor is in a state of panic."P"You cannot advance/freely."
+;N
+
+;L"教室"337127382208L"廊下"217157315218L"生徒"206230263329L"生徒"137229196325L"生徒"193177227241L"先生"329190367279
+L"Class"337127382208L"Corridor"217157315218L"Pupil"206230263329L"Pupil"137229196325L"Pupil"193177227241L"Teacher"329190367279
+
+;C"調べ/,生/"
+C"Examine/,Pupil!Teacher/"
+
+;P"皆、慌ただしく走り回っています。"
+P"Everyone is hurriedly running around."
+;C"見る/,教/廊/"
+C"Look/,Classroom/Corridor/"
+
+;P"人が右往左往しています。"
+P"People are moving about in confusion."
+;C"見る/,生/"
+C"Look/,Pupil!Teacher/"
+
+;P"叫び声や、騒々しく走りまわる人たちでごった返しています。"
+P"People are shouting, running around, and going wild/in confusion."
+;C"話す/尋/,生徒/"
+C"Talk/Ask/,Pupil/"
+
+;=5201
+
+;P"「$7そう言えば、理科室に誰か残っていなかったか？」"
+P"[$7Speaking of which, was there no one left in the/science room?]"
+;P"「$6人を探しているなら、放送室で呼び出してもらえばいいのに」"
+P"[$6If you're looking for someone, you better get/someone to let you call from the broadcast room.]"
+;C"話す/尋/,先生/"
+C"Talk/Ask/,Teacher/"
+
+;?00
+
+;P"「$6早く校庭に行きなさい」"+00
+P"[$6Hurry and get going to the campus.]"+00
+;P"「$6戦争になるかも知れん」"+00
+P"[$6It's probably going to be war.]"+00
+;P"「$6詳しい事は、先生にもわからん」"
+P"[$6I don't know for sure either.]"
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;?01
+
+;P"生徒：「$7優介？さぁ知らないな」"+01
+P"Pupil:$7[Yuusuke? Who knows.]"+01
+;P"先生：「$6優介がいないって？しょうがない奴だな。後でおしおきしないと」"+01
+P"Teacher:[ $6You say Yuusuke's gone? What a/troublemaker. I'll punish him later.]"+01
+;P"生徒：「$7そう言えば、誰かを探しに行くって言ってたな」"
+P"Pupil:[$7Speaking of which, they said they were/going to go look for someone.]"
+;C"追う/行く/,生/"
+C"Chase/Go/,Pupil!Teacher/"
+
+;P"あなたは、皆と一緒に校庭へ出て行きました。"J33
+P"You head for campus along with everyone else."J33
+;C"行く/調べ/,外/"
+C"Go/Examine/,Outside/"
+
+;P"別の場所を調べに行きましょう。"J06
+P"Let's go look someplace else."J06
+;C"行く/,廊下/"
+C"Go/,Corridor/"
+
+;P"今あなたのいる所が廊下です。"
+P"You are in the corridor now."
+;C"行く/,教室/"
+C"Go/,Class/"
+
+;P"教室の中も外も大混乱です。行ってもどうしようもないですね。"
+P"It's chaos both inside and outside the classroom./It's not possible to go."
+;C"尋/"
+C"Ask/"
+
+;P"とても人に物をたずねる状態ではありません。"
+P"This isn't the kind of situation in which to/subject someone to questioning."
+;C"調べ/"
+C"Examine/"
+
+;P"こんな混乱状態では、何も調べられませんね。"
+P"It's such a state of confusion that you can't/examine anything."
+;S33
+
+;I
+
+;D32P"校庭には、生徒が集まりつつありますが、まだ統制はとれていません。"
+D32P"While students are gathering on the campus,/order has yet to be established."
+;N
+
+;L"校庭"132277378337L"先生"325122382196L"生徒"207263290344
+L"Campus"132277378337L"Teacher"325122382196L"Pupil"207263290344
+
+;C"調べ/,先/"
+C"Examine/,Teacher/"
+
+;P"「$6こっ　こら！やめなさい。くすぐったい！」"
+P"[$6H-Hey! Stop it. That tickles!]"
+;C"調べ/,徒/"
+C"Examine/,Pupil/"
+
+;P"「$7おい！何キョロキョロしてんだ」"
+P"[$7Hey! What are you looking around for?]"
+;C"見る/,校庭/"
+C"Look/,Campus/"
+
+;P"皆、徐々に落ち着いてきましたが、まだ統制は取れていません。"
+P"Everyone is slowly calming down, but there is no/order yet."
+;C"見る/,徒/"
+C"Look/,Pupil/"
+
+;P"徐々に集まっています。/優介の姿は見えませんね。"
+P"They are slowly gathering. You can't see any sign/of Yuusuke."
+;C"見る/,先/"
+C"Look/,Teacher/"
+
+;P"先生たちも、戸惑っている様です。"
+P"The teachers also look bewildered."
+;C"話す/尋/,徒/"
+C"Talk/Ask/,Pupil/"
+
+;?00
+
+;P"「$7体育の先生を見かけなかったか？」"+00
+P"[$7Have you seen the phys-ed teacher? ]"+00
+;=2000
+
+;P"「$7藤原先生に会わなかったか？」"
+P"[$7You haven't seen Fujiwara? ]"
+;P"「$7藤原先生に会ったって？/$7サブミッションを食らわされたのか。かわいそうに」"
+P"[$7You said you saw Fujiwara? $7Were you forced to/eat a submission hold? Poor thing.]"
+;+00
+
+;=2000
+
+;P"「$7ところで、戦争が始まったって本当か？」"
+P"[$7By the way, is it true that a war has started?]"
+;P"「$7でも、サブミッションはスピードの速い相手だと掛けられないのさ」"
+P"[$7Bet you can't put a submission on an opponent in/three seconds.]"
+;+00
+
+;P"「$7いったい、何が起こってるんだよ」"
+P"[$7Just what the heck is going on?]"
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$6そいつは、何組の生徒だ。その辺にいないのか？」"
+P"[$6What class are they in? They aren't around/there?]"
+;C"話す/尋/,先/"
+C"Talk/Ask/,Teacher/"
+
+;=0100
+
+;P"「$6まだ、何もわからんのだ」"+01
+P"[$6I don't know anything yet.]"+01
+;P"「$6おとなしくしてろ」"
+P"[$6Be a good girl, now.]"
+;C"使う/,ガン/"
+C"Use/,Air-Gun/"
+
+;?02
+
+;P"こんな所で使ったら危ないですよ。"+02
+P"Watch out if you use that here."+02
+;P"先生に見つかったら取り上げられますよ！"+02
+P"A teacher will confiscate it when they find/you!"+02
+;P"こんな所でみせびらかしちゃダメだってば！"
+P"Don't show that kind of thing off here!"
+;C"調べ/,校庭/"
+C"Examine/,Campus/"
+
+;P"こんな所じゃ、調べても仕方ないですね。"
+P"Even if you examine such a place, there's no point,/right?"
+;C"行く/調べ/,外/"
+C"Go/Examine/,Outside/"
+
+;P"別の場所を調べに行きましょう。"J06
+P"Let's go look someplace else."J06
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$6古新聞が、どうしたって？」"
+P"[$6It's an old newspaper, so what?]"
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;P"「$6何だそりゃ？」"
+P"[$6What's that?]"

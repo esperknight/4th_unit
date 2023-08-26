@@ -1,0 +1,321 @@
+
+
+
+
+;S46
+
+;I
+
+;D09P"森まで逃げて来ました。/うまく追手をまいたようです。"
+D09P"You ran until you arrived at the forest. It/seems you've successfully evaded pursuit."
+;N
+
+;L"アッシュ"298175368339L"森"128120383343
+L"Ash"298175368339L"Forest"128120383343
+
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"「$9えっ、知らなかったの。それは、あなたの名前よ」"M13+25
+P"[$9Huh, you didn't know? That's your name.]"M13+25
+;P"「$9あなたの名前が、今では統合軍でもＷＷＷＦでも重要機密のコードネームとなっているの」"
+P"[$9It's your name, but it's become a secret code/name in the Joint Forces and WWWF.]"
+;C"尋/,カプ/"
+C"Ask/,Capsules/"
+
+;P"「$9生命エネルギーカプセルをちゃんと持っていたのね。/$9それが無いと、あなたは体力を維持できなくなるの」"
+P"[$9You have some life energy capsules, like you're/supposed to. $9Without those, you won't be able to/maintain your physical strength.]"
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$9誰、その人？^/$9あなたを助けてくれたの・・・事件にこれ以上巻きこまれないうちに、保護しなくちゃ」"
+P"[$9Who's that?^ $9He helped you out? You must be/careful not to get him involved in this incident any/further.]"
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$9その話しは、一緒に来てくれたら詳しく話すわ」"
+P"[$9If you come with me, I'll explain in detail.]"
+;C"尋/話す/,アッシ/*/"
+C"Ask/Talk/,Ash/*/"
+
+;?00
+
+;P"「$9私は統合軍のスペシャルエージェントの一人なの」"+00=2300
+P"[$9I am one of the Joint Forces special agents.]"+00=2300
+;M10+23
+
+;P"「$9あなたも私と同じ特殊能力を持っているの」"+00
+P"[$9You also have the same special ability I/do.]"+00
+;P"「$9私たちと一緒に戦って欲しいの。無理にとは、言わないわ。でも、私を信じて欲しいの」"+00
+P"[$9We want you to fight alongside us. I won't force/you. But I want you to trust me.]"+00
+;P"「$9お願い。私たちに協力して」":0101
+P"[$9Please. Cooperate with us.]":0101
+;C"森/,見る/調べ/"
+C"Forest/,Look/Examine/"
+
+;P"今は、不気味なほど静かです。"
+P"Right now, it's strangely quiet."
+;C"尋/,統合/"
+C"Ask/,Joint Forces/"
+
+;P"「$9私に付いて来て。そうすれば、詳しく話すわ」"
+P"[$9Follow me. If you come with me, I'll explain in/detail.]"
+;C"はい/,*/"
+C"Yes/,*/"
+
+;=0100
+
+;P"「$9信じてくれるのね。ありがとう」/あなたは、アッシュに付いて行く事にしました。"J50
+P"[$9You believed in me. Thank you.] You followed/Ash."J50
+;C"行く/,アッシ/"
+C"Go/,Ash/"
+
+;P"あなたは、アッシュに付いて行く事にしました。"J51
+P"You followed Ash."J51
+;C"いいえ/,*/"
+C"No/,*/"
+
+;=0100
+
+;=0200
+
+;P"「$9お願い、私たちを助けて欲しいの。詳しい話しをするから一緒にきて」/（ハイ・イイエ）"+02
+P"[$9Please, we want your help. I'll give you the/full story if you come with me.] (Yes - No)"+02
+;P"「$9そう、仕方ないわね。無理強いは、できないもの^・^・^・」/アッシュは去って行きました。"J48
+P"[$9I see, oh well. I cannot force you^.^.^.] Ash/left."J48
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;?03
+
+;P"「$9奴らは、悪魔の集団よ」"+03
+P"[$9Those guys are a diabolical group.]"+03
+;P"「$9奴らは目的の為なら手段を選ばないわ」"+03
+P"[$9They'll stop at nothing to get what they/want.]"+03
+;P"「$9元々奴らは死の商人として、国際的な武器の売買を行なっていたの。"P"$9それも、当然違法でね」"+03
+P"[$9Originally they were merchants of death engaged/in international weapons trade."P"$9Illegal,/naturally."+03
+;P"「$9でも、奴にはそれだけでは満足できなくて、自分たちで戦争を起こし、それによって利益を得ようとしたの」"+03
+P"[$9However, not satisfied with only that, they/started a war with us in an attempt to make more/profit.]"+03
+;P"「$9奴らは悪魔よ。奴らを倒すため、私たちに協力して」"
+P"[$9Those guys are demons. Please cooperate with us/in order to defeat them.]"
+;C"逃げる/"
+C"Escape/"
+
+;P"「$9あっ！待って」/突然走り出したので、巧く逃げられたようです。"J48
+P"[$9Ah-! Wait!] By taking off suddenly, it seems you/were able to successfully escape."J48
+;S47
+
+;I
+
+;D46P"敵も二人になりました。どうやらここで、決着をつけなくてはならないようです。"WR96:8002:8102:8202:8302:8401:8501:9128:9214:9311:9404K0203BK0200=9600
+D46P"There are two enemies now. It seems I'll have to/settle things/here."WR96:8002:8102:8202:8302:8401:8501:9128:9214:9311:9404K0203BK0200=9600
+;J25
+
+;J49
+
+;S48
+
+;I
+
+;D11P"あなたは森の中で、独りになりました。"WD47P"そこへ、ステラたち三人が、やって来ました。"
+D11P"You were left alone inside the/forest."WD47P"Stella and two others soon arrive."
+;C"話す/"
+C"Talk/"
+
+;=0000
+
+;P"「$8あいつは、どうしたの。ブロンウィン」"+00
+P"[$8What happened with them, Bronwyn?]"+00
+;P"「$7逃げたのなら、仕方ないわね」"
+P"[$7They ran away. There's nothing I could do.]"
+;C"尋/"
+C"Ask/"
+
+;P"「$7私たちを疑ってるの？/$7まぁそれも仕方ないわね」"
+P"[$7Are you suspicious of us? $7Well, that's to be/expected."
+;C"戦う/"
+C"Fight/"
+
+;P"「$8三対一で勝てると思うの？諦めて、降伏しなさい」/（ハイ・イイエ）":0101
+P"[$8You think you can win three versus one? Give up and/surrender.] (Yes - No)":0101
+;C"はい/,*/"
+C"Yes/,*/"
+
+;=0101
+
+;P"「$7そう。^素直ないい子ね」":4501J49
+P"[$7I see.^That's a good girl.]":4501J49
+;C"いいえ/,*/"
+C"No/,*/"
+
+;=0101
+
+;P"「$8そう。飽くまで戦うつもりね」^^^"R84R85:8002:8101:8201:8301:9213:9316:9425K0203BK0200D47P"ステラ：「$8無駄なあがきは、やめなさい」/そう言うと、あなたは背後から、麻酔を射たれてしまいました。"P"あなたの意識は、段々薄れて^・^・^・^"P"あなたは洗脳され、ＷＷＷＦの都市破壊兵器にされてしまいました。"A"ＧＡＭＥ　ＯＶＥＲ"K0301H
+P"[ $8I see. You intend to fight to the/end.]^^^"R84R85:8002:8101:8201:8301:9213:9316:9425K0203BK0200D47P"Stella:[$8Stop/this futile struggling.] After saying that from behind you, she/injects you with anesthesia."P"Your consciousness/gradually fades^.^.^."P"You are brainwashed into an/urban destruction weapon of the WWWF."A"GAME/OVER"K0301H
+;S49
+
+;I
+
+;D48=4500
+
+;P"ステラがあなたの肩に手を置いて、労をねぎらってくれました。"
+P"Stella placed her hand on your shoulder and thanked/you for your service."
+;P"ステラがあなたに近付いて、こう言いました。"
+P"Stella, drawing near you, said this."
+;P"「良くやってくれたわ、ブロンウィン。次の都市破壊計画は、あなたにやってもらうわ。"P"でも、その前に精神コントロール手術を受けてもらわなきゃならないけど・・・」"P"あなたは、いきなり麻酔をかけられ、意識を失いました^・^・^・^^"P"あなたは洗脳され、ＷＷＷＦの都市破壊兵器にされてしまいました。"K0301A"ＧＡＭＥ　ＯＶＥＲ"H
+P"[You did a good job, Bronwyn. Next I plan to have/you destroy the city."P"But before that, you have to/receive the mind control operation...]"P"You were abruptly administered anesthesia and/lost consciousness^.^.^.^^"P"You were brainwashed and/became an urban destruction weapon for the/WWWF."K0301A" GAME OVER"H
+;S50
+
+;I
+
+;D49P"あなたがアッシュに付いて行こうとした時、スドォが現れました。"P"「$8見つけたわ、ブロンウィン。覚悟しなさい」/スドォは、あなたたちに襲いかかって来ました。"WR96R81R83R85:8002:8402:8201:9219:9309:9416K0203BK0200=9600
+D49P"Psudo appeared when you went to go with/Ash."P"[$8I found you, Bronwyn. Prepare yourself!]/Psudo charged at the two of/you."WR96R81R83R85:8002:8402:8201:9219:9309:9416K0203BK0200=9600
+;J25
+
+;:9215:9315:9405D50P"「$8クソッ！この借りは必ず返すぞ！」/そう言うと、スドォは、逃げて行きました。"P"「$9逃したのは残念だけど、あいつとは今度必ず決着を付けるわ。それより、さぁ行きましょう」"P"あなたは、アッシュについて行きました。"WK0701J17
+:9215:9315:9405D50P"[$8Damn it! I'll be sure to get/you back for this!,] said Psudo as she ran away."P"[$9It's/too bad, but we'll settle things with her next time./More importantly, let's get out of here.]"P"You went/with Ash."WK0701J17
+;S51
+
+;I
+
+;D10P"その時、突然ステラが現れあなたに襲いかかってきました。"P"「$9ブロンウイン。早く逃げなさい！！」/アッシュが、ステラを食止めようと戦い始めました。"D19P"あなたもアッシュを助けて戦闘に加わりました。"WR96R82R83R85:8002:8402:8101:9213:9308:9405K0203BK0200=9600
+D10P"At that time, Stella showed up out of the blue and/came rushing at you."P"[$9Bronwyn. Hurry and get out/of here!!] Ash started fighting with Stella in order/to hold her back."D19P"You also join in the fight/to help/Ash."WR96R82R83R85:8002:8402:8101:9213:9308:9405K0203BK0200=9600
+;J25
+
+;:9215:9315:9405D20P"「$8クソッ！この借りは必ず返すぞ！」/そう言うと、ステラは、逃げて行きました。"P"「$9逃したのは残念だけど、あいつとは今度必ず決着を付けるわ。それより、さぁ行きましょう」"P"あなたは、アッシュに付いて行きました。"WK0701J17
+:9215:9315:9405D20P"[$8Damn it! I'll be sure to get/you back for this!,] said Stella as she ran away."P"[$9It's/too bad, but we'll settle things with her next time./More importantly, let's get out of here.]"P"You went/with Ash."WK0701J17
+;S52
+
+;I
+
+;D31P"教室を調べようとしましたが、パニック状態は収まっていません。"
+D31P"You tried to examine the classroom, but the/state of panic hasn't subsided."
+;N
+
+;L"教室"337127382208L"廊下"217157315218L"生徒"206230263329L"生徒"137229196325L"生徒"193177227241L"先生"329190367279
+L"Class"337127382208L"Corridor"217157315218L"Pupil"206230263329L"Pupil"137229196325L"Pupil"193177227241L"Teacher"329190367279
+
+;C"調べ/,生/"
+C"Examine/,Pupil!Teacher/"
+
+;P"皆、慌ただしく走り回っています。"
+P"Everyone is hurriedly running around."
+;C"見る/,教室/廊下/"
+C"Look/,Class/Corridor/"
+
+;P"人でごった返しています。"
+P"People are going back in confusion."
+;C"見る/,生/"
+C"Look/,Pupil!Teacher/"
+
+;P"大変な混雑ぶりです。でも、さっきより混乱は収まったかな？"
+P"It's a strange kind of confusion. But it's settled/down more than earlier, I guess."
+;C"話す/尋/,徒/優介/"
+C"Talk/Ask/,Pupil/Yuusuke/"
+
+;=0100
+
+;P"「$7優介？そう言えば、見かけないな。校庭に行ったんじゃないか？」"+01
+P"[$7Yuusuke? Now that I think of it, I haven't seen/him. Wouldn't he have gone to the campus?]"+01
+;P"「$7優介か？家に帰るなんて、言ってたみたいだけど」"
+P"[$7Yuusuke? He said something about going back/home.]"
+;C"話す/尋/,先生/"
+C"Talk/Ask/,Teacher/"
+
+;?00
+
+;P"「$8早く校庭に行きなさい」"+00
+P"[$8Hurry and get going to campus.]"+00
+;P"「$7何、優介？この非常時にどこへ行ったんだ！」"+00
+P"[$7What, Yuusuke? Where did he go in this/emergency?!]"+00
+;P"「$7とにかく君も、校庭に行きなさい！」"
+P"[$7Anyhow, you get going to the campus too!]"
+;C"追う/行く/,生/"
+C"Chase/Go/,Pupil!Teacher/"
+
+;P"あなたは、皆と一緒に校庭に出て行きました。"J54
+P"You headed out to the campus with everyone."J54
+;C"行く/調べ/,外/"
+C"Go/Examine/,Outside/"
+
+;P"別の場所を調べに行きましょう。"J06
+P"Let's go look someplace else."J06
+;C"行く/,廊下/"
+C"Go/,Corridor/"
+
+;P"ここが、廊下です。"
+P"This is the corridor."
+;C"行く/,教室/"
+C"Go/,Class/"
+
+;P"教室の中には、もう誰も残っていないようです。優介もいないみたいですね。"
+P"There doesn't appear to be anyone left in the/classroom. Yuusuke doesn't seem to be around."
+;C"尋/"
+C"Ask/"
+
+;P"とても、人に物をたずねる状態ではありません。"
+P"This doesn't seem like the appropriate situation in/which to subject someone to questioning."
+;C"調べ/"
+C"Examine/"
+
+;P"こんな混乱状態で、何を調べるんです？"
+P"What can you investigate in such a state of chaos?"
+;S53
+
+;I
+
+;D30P"放送室に来ました。/放送部員がいます。"
+D30P"You arrive at the broadcast room. The broadcast/staff is there."
+;N
+
+;L"放送部員"261166345314L"機械"128234202343L"放送室"128120383343
+L"Broadcast Staff"261166345314L"Machine"128234202343L"Broadcast Room"128120383343
+
+;C"話す/尋/,部員/"
+C"Talk/Ask/,Staff/"
+
+;?00
+
+;P"「$7何だ、また君か。何度も言うように、ここは立入り禁止だよ。出て行ってくれ」"+00
+P"[$7You again? How many times do I need to tell you,/this is off limits! Please leave.]"+00
+;P"「$7優介？そう言えばさっき来たな。女の子を探してるとがで」"+00
+P"[$7Yuusuke? Now that I think of it, he came here/earlier. He was looking for a girl.]"+00
+;P"「$7とにかく、校庭に行かないと、オオメダマを食うぜ」"
+P"[$7Anyhow, you'll get a good scolding if you don't/get to campus.]"
+;C"話す/尋/,優介/"
+C"Talk/Ask/,Yuusuke/"
+
+;P"「$7家に帰るとか言ってたような・・・」"
+P"[$7I think he said he was going back home...]"
+;C"使う/,機械/"
+C"Use/,Machine/"
+
+;P"「$7ダメだよ。勝手にいじくっちゃ！」"
+P"[$7Stop it. Don't mess with it on your own!]"
+;C"尋/"
+C"Ask/"
+
+;P"「$7何が何だか、こっちが知りたいよ」"
+P"[$7I'd like to know what's going on myself.]"
+;C"見る/,部員/"
+C"Look/,Staff/"
+
+;P"落ち着かない様子で、こちらを見ています。"
+P"They are looking this way with unsettled/expressions."
+;C"見る/,機械/"
+C"Look/,Machine/"
+
+;P"ごちゃごちゃしてて、何が何だかわかりません。"
+P"It's all a jumble. You have no idea what's what's/going on."
+;C"見る/調べ/,送室/"
+C"Look/Examine/,Broadcast Room/"
+
+;P"機械が並んでいます。"
+P"Machines are lined up."
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"「$7早く出て行ってくれ」"J06
+P"[$7Hurry and get out of here.]"J06

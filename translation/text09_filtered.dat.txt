@@ -1,0 +1,420 @@
+
+
+
+
+;S34
+
+;I
+
+;=5201
+
+;=2000
+
+;D34P"理科室は、ガランとしています。"
+D34P"The science room is empty."
+;=2200
+
+;D33+52+22P"理科室へやって来ました。/部屋に入ると、男の人と女の子が取っ組み合ってる所に出くわしました。"
+D33+52+22P"You arrive at the science room. You/encounter a guy and a girl fighting to get into the/room."
+;D34P"理科室は、ガランとしています。"
+D34P"The science room is empty."
+;D34P"理科室は、ガランとしています。"
+D34P"The science room is empty."
+;N
+
+;=2000
+
+;=2201
+
+;L"男の人"212153286287L"女の子"295161341256
+L"Man"212153286287L"Girl"295161341256
+
+;L"理科室"128120383343
+L"Science Room"128120383343
+
+;C"話す/尋/,男/"
+C"Talk/Ask/,Man/"
+
+;P"「$5た、助けてくれ・・・こいつは・・・」^/二人共、何を言っているのか分りません。"
+P"[$5H-Help...this guy...]^ I don't know what these/two are saying."
+;C"話す/尋/,女/"
+C"Talk/Ask/,Girl/"
+
+;P"「$9こ、この人を・・・悪い人・・・」^/二人共、何を言っているのか分りません。"
+P"[$9T-This person...is a bad person...]^ I don't/know what these two are saying."
+;C"見る/,男/"
+C"Look/,Man/"
+
+;P"若い男の人です。なんだかやられているのは、男の人みたいにも見えます。"
+P"He's a young man. Being a little beaten up makes/him look kinda manly."
+;C"見る/,女/"
+C"Look/,Girl/"
+
+;P"女の子は、髪を振り乱して取っ組み合っています。"
+P"The girl's hair is disheveled from fighting."
+;C"見る/調べ/,理科/"
+C"Look/Examine/,Science/"
+
+;=2201
+
+;P"二人が暴れてメチャメチャになっています。"
+P"The two people are a mess from fighting."
+;P"ガランとしています。特に何も見当りません。"
+P"It's empty. You can't find anything special."
+;C"調べ/行く/,外/"
+C"Examine/Go/,Outside/"
+
+;=2201
+
+;P"二人を放っておけませんよ。"
+P"You can't just leave those two like this."
+;P"他を調べに行きましょう。"J06
+P"Let's go look elsewhere."J06
+;C"逃げ/"
+C"Escape/"
+
+;=2201
+
+;P"二人を置いて、自分だけ逃げるんですか？"
+P"Are you going to leave those two and save your own/skin?"
+;C"助け/,男/"
+C"Help/,Man/"
+
+;=2201
+
+;P"男の人は、気絶してしまいました。"P"「$9お前は、ブロンウィンだな！！私は、ブロニー」"P"そう言うと、女の子はあなたに襲いかかってきました。"W+30+22J36
+P"The guy lost consciousness."P"[$9You're Bronwyn!/I'm Vroni!,"P" ] said the girl, and came rushing at/you."W+30+22J36
+;C"戦う/,女/"
+C"Fight/,Girl/"
+
+;=2201
+
+;P"男の人は、気絶してしまいました。"P"「$9お前は、ブロンウィンだな！！私は、ブロニー」"P"そう言うと、女の子はあなたに襲いかかってきました。"W+30+22J36
+P"The guy lost consciousness."P"[$9You're Bronwyn!/I'm Vroni!,]"P"said the girl, and came rushing at/you."W+30+22J36
+;C"戦う/助け/"
+C"Fight/Help/"
+
+;=2201
+
+;+22J35
+
+;S35
+
+;I
+
+;D35P"男の人は、伸びてしまいました。女の子があなたに近づいてきました。"P"「$9ありがとう、助けてくれて。私は、ブロニー。あなた、ブロンウィンでしょ」"+02
+D35P"The guy is worn out. The girl approaches/you."P"[$9Thank you for helping me. I'm Vroni. You're/Bronwyn, right?]"+02
+;N
+
+;L"ブロニー"328154381265L"男の人"175233295342
+L"Vroni"328154381265L"Man"175233295342
+
+;C"尋/,組織/"
+C"Ask/,Organization/"
+
+;P"「$9それは、私たちＷＷＷＦの事ね」"=2400
+P"[$9That's us, the WWWF.]"=2400
+;R39M08+24
+
+;C"話す/尋/,ブロニ/*/"
+C"Talk/Ask/,Vroni/*/"
+
+;?01
+
+;P"「$9私はＷＷＷＦのエージェントなの。/$9そして、あなたもそうよ」"=2400
+P"[$9I'm a WWWF agent. $9You are too.]"=2400
+;R39M08+24
+
+;P"「$9あれは、不幸な事故だったわ。でも、もう大丈夫。ちゃんとあなたを連れて帰ってあげるから」"+01
+P"[$9That was an unfortunate accident. But it's ok/now! I'm going to bring you back where you/belong.]"+01
+;P"「$9統合軍もあなたを探しているわ。早くここから逃げましょう」/（ハイ・イイエ）"=2300
+P"[$9The Joint Forces are also looking for you. Let's/hurry and get out of here.] (Yes - No)"=2300
+;M10+23
+
+;R02+01+00
+
+;P"「$9ここは危険よ。私について来て」/（ハイ・イイエ）"
+P"[$9It's dangerous here. Come with me.] (Yes - No)"
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;=0300
+
+;P"「$9私たちは、統合軍と戦っているの。奴らは私たちから自由を奪おうとするわ」"=2300
+P"[$9We're fighting the Joint Forces. Those guys are/set on taking away our freedom.]"=2300
+;+23M10
+
+;+03
+
+;P"「$9今は、詳しく話している時間が無いの。私と一緒に来てくれたら聞かせてあげられるのだけど」"
+P"[$9There isn't time to get into the details yet. If/you come with me, I'll let you hear the whole/story.]"
+;C"尋/,カプ/"
+C"Ask/,Capsules/"
+
+;P"「$9それを持っていたの。それは、大切な物よ。失わないよう気を付けて」"
+P"[$9You have some of those?! That's important stuff!/Take care not to lose it.]"
+;C"尋/,統合/"
+C"Ask/,Joint Forces/"
+
+;P"「$9統合軍は、人を組織の力で制御しようとしているの。人間を部品の様に扱うのよ」"
+P"[$The Joint Forces are trying to control people/with systematic power. Human beings are treated like/parts of a machine.]"
+;C"尋/,男/"
+C"Ask/,Man/"
+
+;P"「$9彼は、統合軍の手先よ。目が覚める前に逃げましょう」"=2300
+P"[$9He's a Joint Forces minion. Let's escape before/they wake up.]"=2300
+;+23M10
+
+;C"話す/見る/,男/"
+C"Talk/Look/,Man/"
+
+;P"男の人は、苦しげな顔で、呻いています。/この人、どこかで見たような・・・"
+P"The man groans with an expression of pain. It feels/like I've seen this person somewhere."
+;C"助け/,男/"
+C"Help/,Man/"
+
+;P"「$9そいつは敵よ、放っておきなさい」"
+P"[$9They're the enemy. Leave them.]"
+;C"はい/,*/"
+C"Yes/,*/"
+
+;=0200
+
+;=0000
+
+;P"あなたは、ブロニーに付いて行く事にしました。"J37
+P"You followed Vroni."J37
+;P"「$9やっばりそうね。私たち、あなたを探していたのよ」"R02
+P"[$9I thought so. We were searching for you.]"R02
+;C"いいえ/,*/"
+C"No/,*/"
+
+;=0200
+
+;?00
+
+;P"「$9どうして？私たちを助けるため、一緒に来て」"+00
+P"[$9How come? Please come with us! You can be of/great help.]"+00
+;P"「$9そう^・^・^・^/$9どうしてもいやなのね」"D36P"ブロニーが、襲いかかって来ました！！"J36
+P"[$9I see^.^.^.^ $9The answer's no, no matter what,/right?]"D36P"Vroni rushed at you!"J36
+;P"「$9そう、私の勘違いか・・・^^助けてくれてありがとう。じゃあネ」"P"ブロニーは、部屋から出て行こうとしました。"J37
+P"[$9I see, it was my misunderstanding...^^Thank you/for helping me.]"P" Vroni goes to leave the room."J37
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$9それ、誰の事？」"
+P"[$9Who's that?]"
+;C"見る/,ブロニ/"
+C"Look/,Vroni/"
+
+;P"「$9そんなにみつめられちゃ、恥かしいじゃない」"
+P"[$9It's embarrassing to be started at so much,/isn't it?]"
+;C"調べ/,ブロニ/"
+C"Examine/,Vroni/"
+
+;P"「$9キャッ！何するの。くすぐったいじゃない」"
+P"[$9Gya-! What are you doing?! That tickles.]"
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"「$9何言ってるの。あなたの名前じゃないの」"+25M13
+P"[$9What do you mean? Isn't that your name?]"+25M13
+;C"行く/,ブロニ/ＷＷ/"
+C"Go/,Vroni/WWWF/"
+
+;P"あなたは、ブロニーと一緒に行く事にしました。"J37
+P"You, go along with Vroni."J37
+;C"戦う/,ブロニ/*/"
+C"Fight/,Vroni/*/"
+
+;P"「$9何をするの！！」"D36P"あなたは、ブロニーに飛びかかりました。"J36
+P"[$9What are you doing?!]"D36P"You suddenly tackle/Vroni."J36
+;S36
+
+;I
+
+;K0203D36+35R96R81R82R84R85R96:8002:8301:9205=3000
+
+;:9209:9302:9423
+
+;:9213:9423:9300
+
+;BK0200:9215:9408:9315=9600
+
+;P"相手が女の子だと思っていると、ちょっと甘かったようです。"P"あなたは、相手の攻撃に押されぎみです。"K0100J37
+P"You were thinking that your opponent is a girl, and/seem to have underestimated her."P"You appear to be/losing ground to the opponent's offense."K0100J37
+;P"あなたの攻撃が強烈だったので、相手は驚いている様です。"P"「$9さすがブロンウィン！この借りは必ず返すぞ！」"K0100J37
+P"Since your attack was strong, your opponent appears/surprised."P"[$9Very clever, Bronwyn! I'll be sure to/get you back for this!"K0100J37
+;S37
+
+;I
+
+;D37P"その時、声がしました。/「$9ブロニー！！そこで何をしている。博士をどうするつもり！」"P"そこには、一人の少女が立っていました。"=9600
+D37P"Suddenly, a voice calls out. [$9Vroni!! What are/you doing there? What do you intend to do with the/Doctor!?]"P"There, a lone girl stands."=9600
+;WD36P"「$9アッシュか！^丁度いい。お前も血祭りに上げてやる！！」":3301P"^^あなたの目の前で、壮絶な戦いが始まりました。しかし、どうやらブロニーの方が、形勢は不利の様です。^^^"P"「$9フン！^今日の所は、おとなしく引下がっておく。必ず、この借りは返すからな！」"
+WD36P"[$9Ash!^Good timing. I'll sacrifice you on the/field of battle too!!]":3301P"^^A grand battle begins/before your eyes. However, it seems like Vroni is at/the disadvantage.^^^"P"[$9Hmph!^I'll retreat quietly/for today. I'll be sure to get you back for this!]"
+;P"「$9まずい所に来たな。今日の所は引上げだ！」"
+P"[$9It seems I came at a bad time. This is no place/for a fight! I'll retreat for today!,]"
+;WD38P"そう言うとブロニーは、窓を突き破って出て行きました。"WK0701J38
+WD38P"said Vroni, and left, shattering a window in/her wake."WK0701J38
+;S38
+
+;I
+
+;D37P"「$9ブロニー・・・^フフッ、スピードだけは、さすがね」/アッシュと呼ばれた女の子は独り言のように呟きました。"
+D37P"[$9Vroni...^Tee-hee, speed is all she has, as/expected.] The girl called Ash muttered, as if/speaking to herself."
+;N
+
+;L"アッシュ"240145316303
+L"Ash"240145316303
+
+;C"尋/,統合/ＷＷ/"
+C"Ask/,Joint Forces/WWWF/"
+
+;P"「$9あなたには、関係無い事よ」"
+P"[$9It has nothing to do with you.]"
+;C"話す/,アッシ/"
+C"Talk/,Ash/"
+
+;P"「$9あいつらは、悪魔よ。そんな事より、ケガしないうちに校庭に避難しなさい」"
+P"[$9They're a bunch of demons. Putting that aside,/take refuge on campus before you get hurt.]"
+;T
+
+;P"アッシュはあなたに校庭に逃げるよう言残すと、まだ気を失っている男の人を連れて出て行きました。"J39
+P"Leaving you with the advice to escape to campus,/Ash grabbed the still-unconscious guy, and took/off."J39
+;S39
+
+;I
+
+;D34+52P"あなたは一人理科室に取残されました。"
+D34+52P"You were left alone in the science room."
+;C"尋/"
+C"Ask/"
+
+;P"もう、誰もこの部屋には居ません。"
+P"There is no one left anymore."
+;C"外/,*/行く/逃げ/"
+C"Outside/,*/Go/Escape/"
+
+;P"他の場所を調べに行きましょう。"J06
+P"Let's go look elsewhere."J06
+;S40
+
+;I
+
+;+52D40P"屋上にやって来ました。/屋上に付くと女の人が一人、立っていました。"P"女の人は、街の中であなたに声を掛けた人でした。"P"「$8わたしは、スドォ。あなたを待っていたの」"
++52D40P"You arrive at the roof. A lone woman is/standing there."P"It was the woman who called out to/you in the center of town."P"[$8I am Psudo. I've been/waiting for you."
+;N
+
+;L"スドォ"180174252273
+L"Psudo"180174252273
+
+;C"話す/,*/スド/"
+C"Talk/,*/Psudo/"
+
+;=0000
+
+;P"「$8あなたは、もともとＷＷＷＦの隊員だったのよ」"+00=2400
+P"[$8You were originally a member of the/WWWF.]"+00=2400
+;R39M08+24
+
+;P"「$8私たちに協力して欲しいの。私の仲間になって？」/（ハイ・イイエ）":0101
+P"[$8We'd like your cooperation. Will you join with/us?] (Yes - No)":0101
+;C"はい/,*/"
+C"Yes/,*/"
+
+;=0100
+
+;D39P"「$8ありがとう。私たちの基地が、この近くにあるの。付いて来て」"WJ41
+D39P"[$8Thank you. Our base is near here. Follow/me.]"WJ41
+;C"行く/,スド/ＷＷ/"
+C"Go/,Psudo/WWWF/"
+
+;=0100
+
+;P"「$8ちょっと、気が早いわね。私の言う話を聞いてよ」"
+P"[$8You're being a little hasty. Listen to what I/have to say.]"
+;D39P"あなたは、スドォと一緒にＷＷＷＦの基地に向かいました。"WJ41
+D39P"You go along with Psudo to the WWWF base."WJ41
+;C"いいえ/,*/"
+C"No/,*/"
+
+;=0100
+
+;D39P"「$8そんな事言わないで、ね！お願い」/結局強引に連れていかれました。"WJ41
+D39P"[$8Don't say that kind of thing, ok? Please.]/You were forcibly taken, after all."WJ41
+;C"調べ/,スド/"
+C"Examine/,Psudo/"
+
+;P"「$8キャッ！何するの。くすぐったいからやめて」"
+P"[$8Gya-! What are you doing?! Stop, that tickles.]"
+;C"逃げ/,スド/*/"
+C"Escape/,Psudo/*/"
+
+;P"屋上のどこへ逃げる気ですか？"
+P"Where do you expect to run away to from the roof?"
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"「$8え？知らなかったの。それはあなたの名前よ」"+25M13
+P"[$8Huh? You didn't know? That's your name.]"+25M13
+;P"「$8とぼけたってダメよ。あなたがブロンウィンだって事は、分ってるんだから」"
+P"[$8Don't feign ignorance. You know you're/Bronwyn.]"
+;C"尋/,組織/"
+C"Ask/,Organization/"
+
+;P"「$8それは、私たちの組織の事かしら・・・」"
+P"[$8That's our organization, I suspect.]"
+;C"尋/,スド/*/"
+C"Ask/,Psudo/*/"
+
+;P"「$8えっ？あなた、本当に何も覚えてないのね」"
+P"[$8What? You really don't remember anything, do/you?]"
+;C"尋/,統合/"
+C"Ask/,Joint Forces/"
+
+;P"「$8奴らは、我々の敵なの」"
+P"[$8Those guys are our enemies.]"
+;C"尋/,カプ/"
+C"Ask/,Capsules/"
+
+;P"「$8それを持っていたの。大切な物よ。なくさずに持っていなさい」"
+P"[$8You had those? They're pretty important. Hold/onto them and don't lose them.]"
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$8誰？その人」"
+P"[$8Who's that?]"
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$8それ、あの時の事故の記事ね。後で詳しく話すわ」"
+P"[$8It's an article about the accident. We'll talk about/the details later.]"
+;C"ＷＷ/,尋/"
+C"WWWF/,Ask/"
+
+;P"「$8私たちは、人間性を奪う官僚主義から、人々を開放するために戦っているの」"
+P"[$8We're fighting to liberate everyone from a/bureaucracy that snatches away their humanity.]"
+;C"見る/,スド/"
+C"Look/,Psudo/"
+
+;P"スドォは、真剣な顔で、あなたを見ています。"
+P"Psudo is looking at you with a serious expression."
+;C"使う/,ガン/"
+C"Use/,Air-Gun/"
+
+;=0200
+
+;P"「$8ワッ！ああ、ビックリした。オモチャじゃないの。驚かさないで」"+02
+P"[$8Ack-! Ah, you startled me. It's just a toy./Don't scare me like that.]"+02
+;P"「$8いい加減にしなさい！！」"
+P"[$8Shape up!!]"
+;C"尋/"
+C"Ask/"
+
+;P"「$8え？それがどうかした・・・？」"
+P"[$8Huh? What about it?]"

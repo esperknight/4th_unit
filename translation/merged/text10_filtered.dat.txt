@@ -1,0 +1,324 @@
+
+
+
+
+;S41
+
+;I
+
+;D41P"ＷＷＷＦの基地にやって来ました。あなたの前に三人のエージェントたちがいます。"P"三人は、スドォ、ステラ、ブロニーと名乗りました。"
+D41P"You arrive at the WWWF base. There are three agents/in front of you."P"The three people are introduced as,/Psudo, Stella, and Vroni."
+;N
+
+;L"ステラ"178146238294L"スドォ"325132378324L"ブロニー"264192321292L"基地"128120383343
+L"Stella"178146238294L"Psudo"325132378324L"Varonii"264192321292L"Base"128120383343
+
+;C"話す/,ブロニ/"
+C"Talk/,Varoni/"
+
+;=3500
+
+;P"ブロニー：「$9ここへ来てくれて嬉しいわ。さっきは、邪魔が入ったけど、あなたが無事で、なによりよ」"
+P"Vroni:[$9I'm glad you came here. I got in the way/earlier, but I'm glad you're safe.]"
+;P"ブロニー：「$9さっきは、ごめんなさい。あなたが、統合軍に操られているのかと思ったのよ」"
+P"Vroni:[$9I'm sorry about earlier. I thought you/were being manipulated by the Joint Forces.]"
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;P"スドォ：「$8私たちは、自由のために戦っているの」"
+P"Psudo:[$8We're fighting for the sake of freedom.]"
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"ステラ：「$8それは、統合軍が、あなたを連れ去ろうとしたために起こった事故なの」"=2300
+P"Stella:[$8That's the accident when the Joint Forces/were about to take you away.]"=2300
+;+23M10
+
+;C"尋/,ステ/スド/ロニ/"
+C"Ask/,Stella/Psudo/Ronnie/"
+
+;?03
+
+;P"「$8あなたを含む私たち四人は、ＢＳバイオニックソルジャーなの。/$8つまり私たちは、戦士となるよう造られた人間と言う訳」"K0601+03
+P"[$8Including you, we are the four BS; Bionic/Soldiers. $8In other words... we are human beings/created to be soldiers.]"K0601+03
+;P"「$9驚いた？全ての原因は、あの越中にあるのよ。越中は、ＷＷＷＦを裏切り統合軍に寝返ったのよ」"+03=2300
+P"[$9Are you surprised? It's all because of that/scum, Etchu. Etchu betrayed the WWWF and switched/sides to the Joint Forces.]"+03=2300
+;M10+23
+
+;P"「$8私たちは、統合軍を許さないわ」"
+P"[$8We won't forgive the Joint Forces.]"
+;C"尋/話す/,統合/"
+C"Ask/Talk/,Joint Forces/"
+
+;?02
+
+;P"「$8統合軍は、悪の組織よ。特に越中には気を付けなさい」"+02
+P"[$8The Joint Forces is an evil organization. Be/particularly careful of Etchu.]"+02
+;P"「$8越中は、遺伝子操作によって、人体の改造を行なったのよ。"P"$8私たちは、その犠牲者と言う訳。あなたを含む私たち四人は、彼に改造されたＢＳバイオニックソルジャーなの」"+02
+P"[$8Etchu performed remodeling of the human body via/gene manipulation."P"$8We are the results. Including/you, we are the 4 people he remodeled as [BS], Bionic/Soldiers.]"+02
+;P"「$8統合軍を許す訳には行かないの。/$8統合軍を倒すため、私たちに協力してね」"
+P"[$8I cannot forgive the Joint Forces. $8You'll help/us in order to defeat the Joint Forces, right?]"
+;C"尋/話す/,カプ/"
+C"Ask/Talk/,Capsules/"
+
+;=0100
+
+;=1100
+
+;P"スドォ：「$8カプセルが無いの？！困ったわね。ここにも予備は無いの」"
+P"Psudo:[$8You don't have any capsules?! What should/we do? There are none in reserve here.]"
+;P"スドォ：「$8何だ、カプセルを持っていたの」"
+P"Psudo:[$8Oh, you had some capsules?]"
+;+01
+
+;P"スドォ：「$8生命エネルギーカプセルが無いと、あなたは行動できなくなるのよ。だから、カプセルは大切にしないと」":3401
+P"Psudo:[$8Without the life energy capsules, you'll/become unable to perform any actions. Therefore, you/must treat them carefully.]":3401
+;C"話す/,ステ/スド/ロニ/*/"
+C"Talk/,Stella/Psudo/Ronnie/*/"
+
+;?00
+
+;P"「$8良く来てくれたわ。これから基地の中を案内したげる。記憶を無くしたんですって？でも、もう大丈夫。ここなら設備も整っているわ」"+00
+P"[$8Welcome. Now, I'll give you a tour inside the/base. You say you lost your memory? But it's ok./We're equipped with the best treatments here.]"+00
+;=0100
+
+;P"「$8エネルギーカプセルが必要な事も知らないんじゃないの」"
+P"[$8You don't even know about the necessary energy/capsules right?]"
+;P"「$8生命エネルギーカプセルが無いと、あなたは行動できなくなるのよ」"+00
+P"[$8Without the life energy capsules, you will/become unable to move.]"+00
+;=0202
+
+;=0300
+
+;P"「$8まだ何か、知りたい事があるんじゃない？」"
+P"[$8Aren't there things you want to know, still?]"
+;P"「$8基地の中を案内したげる。こっちへ来て」"J42
+P"[$8I'll guide you inside the base. Come over/here.]"J42
+;P"「$8まだ何か、知りたい事があるんじゃない？」"
+P"[$8Aren't there things you want to know, still?]"
+;C"尋/行く/見る/調べ/,基地/"
+C"Ask/Go/Look/Examine/,Base/"
+
+;?51
+
+;P"「$8驚いたでしょ？ここが私たちの基地よ」"+51
+P"[$8Surprised, right? This is our base.]"+51
+;P"「$8そんなにキョロキョロしなくたって、ちゃんと私たちが案内してあげるから。"P"$8これからここが、あなたの家だと思ってね。後で居住区も案内してあげるわ」"+51
+P"[$8You don't have to look around so much, I'll give/you a proper tour."P"$8Think of us as your family/now. I'll show you around the residence ward afterward."+51
+;=0202
+
+;=0300
+
+;P"「$9本当に、珍しいみたいね」"
+P"[$9It looks really unusual, right?]"
+;P"スドォ：「$8こっちへいらっしゃい。基地の中を案内したげる」"J42
+P"Psudo:[$8Welcome. I'll guide you around inside the/base.]"J42
+;P"「$9本当に珍しいみたいね」"
+P"[$9It looks really unusual, right?]"
+;C"見る/,ステ/スド/ロニ/"
+C"Look/,Stella/Psudo/Ronnie/"
+
+;P"三人共、姉妹のようにそっくりです。"
+P"The three look just like sisters."
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"「$8それは、あなたの名前よ」"+25M13
+P"[$8That's, your name.]"+25M13
+;P"「$8私たちは人間よ。コードネームや番号で呼ばれるのなんて、まっぴらだわ。"P"$8ブロンウィンはあなたの名前。作戦のコードネームなんかじゃないの」"
+P"[$8We're human beings. We won't stand for being/called code names or numbers or crap like/that."P"$8Bronwyn's your name. It's not some/operation code name.]"
+;S42
+
+;I
+
+;D42P"あなたは、三人に案内されて、基地を見て回っています。"P"ＴＶモニターで、街の中の戦闘が写されています。"
+D42P"You go looking around the base guided by the/three."P"The battle in town is being shown on the TV/monitor."
+;N
+
+;L"基地"128120383343L"モニター"135138183236L"スドォ"208202249286L"ステラ"267186321287L"ブロニー"310122383270
+L"Base"128120383343L"Monitor"135138183236L"Psudo"208202249286L"Stella"267186321287L"Varonii"310122383270
+
+;C"調べ/,モニタ/"
+C"Examine/,Monitor/"
+
+;P"基地の中と外を写し出す、ＴＶモニターです。/街の中を写している様です。"
+P"TV monitors that show the outside and inside of the/base. It's showing the center of town."
+;C"見る/,モニタ/"
+C"Look/,Monitor/"
+
+;P"市街地で、ＷＷＷＦと統合軍が戦っているようです。市民も巻きこまれているようです。"=0300
+P"It seems WWWF and Joint Forces are fighting in the/city. It appears citizens are also getting caught up/in it."=0300
+;+03
+
+;C"見る/,ステ/スド/ブロニ/"
+C"Look/,Stella/Psudo/Varoni/"
+
+;P"三人とも、あなたをじっと見つめていますよ。"
+P"The three people are staring fixedly at you."
+;C"話す/尋/,ステ/スド/ブロ/*/"
+C"Talk/Ask/,Stella/Psudo/Bronwyn/*/"
+
+;?00
+
+;P"「$8統合軍は、私たちの目的を邪魔しようとするの」"+00
+P"[ $8Joint Forces intend to get in the way of our/objective.]"+00
+;P"「$8私たちはどうしても、あの統合軍を倒さなくてはならないの」"+00
+P"[$8We must defeat the Joint Forces, no matter/what.]"+00
+;P"「$8そのためには、少々の犠牲もやむをえないわ」"+00
+P"[$8To achieve this, a small quantity of sacrifices /cannot be helped.]"+00
+;P"「$8あの市民たちも、私たちの理想のためには不用な物よ」"+00
+P"[$8Those people are unnecessary for the sake of our/ideals.]"+00
+;P"「$8統合軍を倒ため、あなたの力を貸して」"
+P"[$8Lend us your power in order to defeat the Joint/Forces!]"
+;C"尋/,統合/"
+C"Ask/,Joint Forces/"
+
+;?02
+
+;P"ブロニー：「$9私たちの目的を邪魔する奴らよ」"+02
+P"Vroni:[$9Those guys stand in the way of our/objective.]"+02
+;P"スドォ：「$8アッシュとセスには用心しなさい」"+02
+P"Psudo:[$8Be on your guard for Ash and Seth.]"+02
+;P"ステラ：「$8アッシュは強力な攻撃力を持っているわ。/$8セスは、アッシュと反対に防御に強いの」"+02
+P"Stella:[$8Ash has powerful offensive ability./$8Seth, as opposed to Ash, is formidable in/defense.]"+02
+;P"ステラ：「$8二人共、手ごわい敵よ。気を付けなさい」"
+P"Stella:[$8They're both difficult enemies. Be/careful.]"
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;P"ステラ：「$8私たち、人間性を開放し、自由のために戦っているの」"
+P"Stella:[$8We are fighting for freedom, and the/liberalization of humanity.]"
+;C"行く/見る/調べ/,基地/"
+C"Go/Look/Examine/,Base/"
+
+;?51
+
+;P"スドォ：「$8驚いたでしょ？ここが私たちの基地よ」"+51
+P"Psudo : [$8Surprised, right? This is our base.]"+51
+;P"スドォ：「$8そんなにキョロキョロしなくたって、ちゃんと私たちが案内してあげるから。"P"$8これからは、ここがあなたの家だと思ってね。後で居住区も案内するわ」"+51
+P"[$8You don't have to look around so much, I'll give/you a proper tour."P"$8Think of us as your family/now. I'll show you around the residence ward afterward."+51
+;P"ブロニー：「$9本当に珍しいみたいね」"
+P"[$9It looks really unusual right?]"
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"スドォ：「$8統合軍が、あなたを奪おうとしたために起きた事故なの」"
+P"Psudo:[$8It's the accident that happened when the/Joint Forces tried to take you away.]"
+;C"尋/,カプ/"
+C"Ask/,Capsules/"
+
+;P"ステラ：「$8それは、大切な物よ。離さず持ってなさい」"
+P"Stella:[$8That's an important thing. Always keep it/on you.]"
+;U
+
+;=0110
+
+;=0300
+
+;J43
+
+;+01
+
+;S43
+
+;I
+
+;D43P"基地の中が、何やら騒がしくなりました。"P"と、そこへアッシュが、いきなり現れました。"
+D43P"Some kind of ruckus started inside the/base."P"Then Ash abruptly appeared."
+;N
+
+;L"アッシュ"168165226265
+L"Ash"168165226265
+
+;C"戦う/,アッシ/"
+C"Fight/,Ash/"
+
+;P"「$8あいつを！^アッシュをやっつけて！」/ステラが言いました。"P"あなたは、アッシュに襲いかかって行きました。"J44
+P"[$8That bitch-! ^Get her!] Stella said."P"You went/to attack Ash."J44
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;?03
+
+;P"アッシュ：「$9騙されちゃダメよ、ブロンウイン。ＷＷＷＦは悪魔の組織よ。/$9世界を恐怖に陥れ、人々の平和を壊そうとしているのよ」"+03
+P"Ash:[$9Don't be fooled, Bronwyn. The WWWF is a/diabolical organization. $9They intend to plunge the/world into fear and destroy the peace of/everyone.]"+03
+;P"アッシュ：「$9やつらは、自分の利益の為なら、何だってやるの」"+03
+P"Ash:[$9They will do anything for their own/profit.]"+03
+;P"アッシュ：「$9今なら奴らも混乱してるわ。早くここから脱出しましょう！」"
+P"Ash:[$9Right now, those guys are in disarray./Hurry! Let's get out of here!]"
+;C"尋/話す/,アッシ/"
+C"Ask/Talk/,Ash/"
+
+;?00
+
+;P"アッシュ：「$9騙されちゃダメよ。そいつらは、あなたを仲間に引き摺り込もうとしているだけなのよ」"+00
+P"Ash:[$9Don't be fooled. Those people are just/trying to drag you into their group.]"+00
+;P"アッシュ：「$9そいつらは、あなたの力を利用しようとしているだけなのよ」"+00
+P"Ash:[$9They are only trying to use your power.]"+00
+;P"アッシュ：「$9ＷＷＷＦは、悪の組織よ。/$9私を信じて、一緒に逃げて！！」"
+P"Ash:[$9The WWWF is a bad organization. $9Trust me,/come escape together!"
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"どちらを信じて行くんです？"
+P"Who are you going to believe?"
+;C"助け/行く/,アッシ/"
+C"Help/Go/,Ash/"
+
+;P"アッシュ：「$9ここは、ひとまず逃げましょう」"J46
+P"Ash:[$9Well, for now, let's get out of here.]"J46
+;C"逃げる/,*/"
+C"Escape/,*/"
+
+;P"「$9急いで逃げましょう」/あなたはアッシュと基地を脱出しました。"J46
+P"[$9Let's hurry and escape.] You and Ash escape the/base."J46
+;C"戦う/,ＷＷ/"
+C"Fight/,WWWF/"
+
+;P"「$9今戦うのは不利よ。一旦、逃げましょう」/あなたはアッシュと共に基地を脱出しました。"J46
+P"[$9Right now, we're at a disadvantage in a fight./For now, let's escape.] You and Ash escape the base/together."J46
+;C"見る/調べ/,アッシ/"
+C"Look/Examine/,Ash/"
+
+;P"アッシュは、あなたに、手を差し伸べています。"
+P"Ash holds her hand out to you."
+;C"戦う/,アッシ/"
+C"Fight/,Ash/"
+
+;J44
+
+;C"助け/,ＷＷ/"
+C"Help/,WWWF/"
+
+;P"「$8アッシュを倒すのよ！」/ステラが言いました。"P"あなたは、アッシュに襲いかかりました。"J44
+P"[$8Defeat Ash!] Stella said."P"You rush at Ash."J44
+;C"話す/尋/,*/"
+C"Talk/Ask/,*/"
+
+;=0100
+
+;P"ステラ：「$8あいつは、アッシュ。統合軍の手先よ、やっつけて！」"+01=2300
+P"Stella:$8[That's Ash. She's a Joint Forces minion./Get her!]"+01=2300
+;+23M10
+
+;P"ブロニー：「$9あいつの口車に乗っちゃダメ！やっつけるのよ」"
+P"Vroni:[$9Don't be taken in by her lies! Take her/down!]"
+;C"尋/"
+C"Ask/"
+
+;P"アッシュ：「$9今は、説明している暇が無いの。私を信じてついて来て！」"
+P"Ash:[I don't have time to explain right now. Trust/me and come with me!]"
+;S44
+
+;I
+
+;D21P"アッシュに飛びかかろうとすると、ヒラリと身をかわされました。"P"「$8あいつを逃しちゃだめ！追いかけましょう」/あなたは、アッシュを追って基地を飛び出しました。"WJ45
+;D21P"Ash leaps away in a nimble display, narrowly avoiding the attack."P"「$8Someone escapes and starts to chase you! You and Ash manage to escape the base, regardless."WJ45
+;S45
+
+;I
+
+;D45P"森の中で、アッシュを追い詰めた時、そこへもう一人、少女が現れました。"P"「$8アッシュ！！」/「$9セス！」"P"セスと呼ばれた少女も、どうやら統合軍のメンバーの様です。"WJ47
+D45P"When I'd tracked Ash down inside the forest, another/girl appeared there."P"$8[Ash!!] [$9Seth!]"P"It appears/the girl known as Seth is also a Joint Forces/member."WJ47

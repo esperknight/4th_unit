@@ -1,0 +1,773 @@
+
+
+;S01
+
+;I
+
+;K0004M06M12M05D01P"山田記者との待合わせには、まだ時間はあるのですが・・・":9132:9215:9315:9407:8601:8701:8801:5200
+K0004M06M12M05D01P"There is still some time before/the meeting with the reporter,/Yamada...":9132:9215:9315:9407:8601:8701:8801:5200
+
+;N
+
+;L"ラジカセ"187244235292L"テレビ"205120252164L"部屋"128120383343=1300
+L"Radio-Cassette Player"187244235292L"Television"205120252164L"Room"128120383343=1300
+
+;L"新聞"256224321296
+L"Newspaper"256224321296
+
+;L"街"036142069196L"喫茶店"069169076176
+L"Town"036142069196L"Cafe"069169076176
+
+;C"見る/,外/"
+C"Look/,Outside/"
+
+;P"どこにでもあるような風景です。"
+P"The kind of scenery you'd find anywhere."
+
+;C"見る/,テレビ/"
+C"Look/,Television/"
+
+;?03
+
+;P"朝のニュース番組をやっています。"+03
+P"The morning news is on."+03
+
+;P"$6「次に、航空機撃墜事件のニュースです」"+03
+P"$6[Next up, news about the shooting down of an airplane.]"+03
+
+;P"$6「撃墜された航空機は、以前、国籍形式ともに不明のままです」"+03
+P"$6[The nationality of the shot down aircraft is/still unknown.]"+03
+
+;P"$6「調査当局の調べによると、航空機は何らかの貨物を輸送中であったと思われるが、"P"$6パイロットその他の乗員も発見されず、現在捜査は難航している、と言う事です」"+03
+P"$6[According to local authorities, the current/investigation as to what cargo was being transported,/"P"$6and the discovery of the pilot and crew is/proceeding slowly.]"+03
+
+;P"$6「次のニュースです。生物学の世界的権威である、スルー博士が来日しました・・・」"+03
+P"$6[Next up, global authority on biology, Dr./Through, arrived in Japan... ]"+03
+
+;P"$6「朝のニュースを終わります」"
+P"$6[That concludes the morning news.]"
+
+;C"見る/,新聞/"
+C"Look/,Newspaper/"
+
+;P"「謎の航空機撃墜」の記事が出ています。"
+P"There's an article about a [Mysterious Airplane/Crash]."
+
+;C"調べ/見る/,ラジ/"
+C"Examine/Look/,Radio/"
+
+;P"ごく普通のステレオ式です。"
+P"Just an ordinary stereo."
+
+;C"見る/,部屋/"
+C"Look/,Room/"
+
+;P"部屋には、テレビやラジカセが置いてあります。"
+P"There's a television and radio cassette player/here."
+
+;C"調べ/,部屋/"
+C"Examine/,Room/"
+
+;=0200
+
+;P"ラジカセやテレビが置いてあります。床が見えない程、雑然としています。"+02
+P"A television and radio cassette player are here./There's such a mess that you can barely see the/floor."+02
+
+;P"本当にゴチャゴチャした部屋ですね。"
+P"To be honest, the room is a mess..."
+
+;C"追う/,優介/"
+C"Chase/,Yuusuke/"
+
+;P"優介を追いかけるより、他にする事があるんじゃないですか？"
+P"Don't you have anything better to do than chase/down Yuusuke?"
+
+;C"優介/"
+C"Yuusuke/"
+
+;P"優介は、もう、学校へ出かけました。"
+P"Yuusuke already left for school."
+
+;C"取る/,新聞/"
+C"Take/,Newspaper/"
+
+;=1300
+
+;M64M04P"とりあえず、新聞を取りました。"+13
+M64M04P"You picked up the newspaper."+13
+
+;P"もう、持っています。"
+P"You already have the newspaper."
+
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"まだ時間があるので、街に行ってみる事にしました。"J02
+P"You have some time, so you try heading into/town."J02
+
+;C"行く/,茶店/"
+C"Go/,Cafe/"
+
+;P"そろそろ約束の時間です。喫茶店に向かいましょう。"J02
+P"It's almost time for your appointment. You go/towards the cafe."J02
+
+;C"使う/,ラジカ/"
+C"Use/,Radio-Cassette/"
+
+;=0400
+
+;P"ラジオが鳴りだしました。/$7「本日は、全国的に晴れ間が広がるでしょう」"+04
+P"Turned on the radio.  $7 [Today, we'll be seeing an/extended break in the weather.]"+04
+
+;P"$7「今日のお天気。提供は、コンピューターと夢を結ぶソフトハウス、データウエストでした。」"
+P"$7[Today's weather is sponsored by the software/house that connects computers and your dreams, Data/West.]"
+
+;C"尋ね/"
+C"Ask/"
+
+;P"ここには、たずねる人がいません。"
+P"There is no one you can ask."
+
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"とりあえず外へ行ってみましょう。"J02
+P"For now, let's go outside."J02
+
+;C"調べ/,テレビ/"
+C"Examine/,Television/"
+
+;P"１４インチのテレビです。/変った所はないですが。"
+P"A 14-inch television. There is nothing out of the/ordinary."
+
+;C"使う/"
+C"Use/"
+
+;P"何を使うんです？"
+P"What would you like to use?"
+
+;S02
+
+;I
+
+;D03P"街にやって来ました。/歩いていると女の人が、あなたに声をかけて来ました。"P"$8「実は^・^・^・^　あなたに話したい事があるんだけど」"
+D03P"You arrive in town. While walking, a woman calls/out to you,"P"$8[Um^.^.^.^ There's something I want/to talk to you about.]"
+
+;N
+
+;L"女の人"227157317302L"街"128120383343L"喫茶店"142269205343
+L"Woman"227157317302L"Town"128120383343L"Cafe"142269205343
+
+;C"見る/,女/"
+C"Look/,Woman/"
+
+;P"あなたに、親しげな笑顔を向けています。"
+P"You see her smiling towards you."
+
+;C"見る/,街/"
+C"Look/,Town/"
+
+;P"どこにでもあるような店が、並んでいます。"
+P"Nondescript shops are lined up."
+
+;C"見る/調べ/,喫茶/"
+C"Look/Examine/,Cafe/"
+
+;P"すぐそこに、約束の店が見えています。"
+P"You're able to see the shop you agreed upon right/over there."
+
+;C"調べ/,女/"
+C"Examine/,Woman/"
+
+;P"不思議な雰囲気の女の人です。"
+P"A mysterious woman."
+
+;C"逃げる/,*/喫茶/女/"
+C"Escape/,*/Cafe/Woman/"
+
+;P"あなたは、急いで喫茶店に向かいました。"J03
+P"You hurry to the cafe."J03
+
+;C"喫茶/,行く/"
+C"Cafe/,Go/"
+
+;P"あなたは、喫茶店に向かいました。"J03
+P"You go towards the cafe."J03
+
+;C"話す/,女/*/"
+C"Talk/,Woman/*/"
+
+;=0000
+
+;P"「$8あなたの知りたい事を教えてあげる。でも、ここじゃダメだわ。後で学校に来て」"+00
+P"[$8I'll tell you what you want to know. But not/here. Come to school later.]"+00
+
+;P"「$8重要な話なの。忘れないでね」/そう言うと女の人は、どこかへ去っていきました。"J03
+P"[$8It's very important. Don't forget, ok?], said/the woman, and then she went away."J03
+
+;C"尋ね/,喫茶/"
+C"Ask/,Cafe/"
+
+;P"「$8えっ？喫茶店が何か・・・？」"
+P"[$8Huh? A cafe...?]"
+
+;C"尋ね/"
+C"Ask/"
+
+;P"「$8今は、何も言えないの。だから必ず学校に来てね」"
+P"[$8I can't say anything right now. Just be sure to/come to school.]"
+
+;C"追う/,*/女/"
+C"Chase/,*/Woman/"
+
+;P"今は、喫茶店に行く方が・・・"
+P"I'd better go to the cafe now..."
+
+;S03
+
+;I
+
+;D02P"喫茶「エル」で待っていると、一人の男が近付いてきました。/どうも山田記者とは違う様です。"P"男の人が話しかけて来ました。"P"「$6君は、あの事件のことが知りたいんだろ・・・^実は・・・」"
+D02P"While I was waiting at the cafe [Elle], a lone/man approached. Somehow he seemed different than the/reporter Yamada."P"The man spoke."P"$6[You want to/know about that incident...?^Actually...]"
+
+;N
+
+;L"男の人"181140253292L"喫茶店"128120383343
+L"Man"181140253292L"Cafe"128120383343
+
+
+;C"話/,男/*/"
+C"Talk/,Man/*/"
+
+;P"「$6ここじゃだめだ、後で学校へ来てくれ」"
+P"[$6Here is no good, come to school later.]"
+
+;C"見る/調べ/,男/"
+C"Look/Examine/,Man/"
+
+;=0000
+
+;P"まだ若い男性です。/どことなく落ち着かなげです。"+00
+P"He's still a young man. He seems unsettled/somehow."+00
+
+;P"さっきから、しきりに外を気にしています。"
+P"He's been looking outside frequently."
+
+;C"尋ね/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$6今は何も話せない。詳しい話が聞きたいなら、後で学校へ来てくれ」"
+P"[$6I can't say anything right now. Come to school/later if you want the details.]"
+
+;C"尋ね/,男/*/"
+C"Ask/,Man/*/"
+
+;P"「$6実は・・・^君に話しておきたい事があるんだが・・・/$6ここでは言えない」"
+P"[$6Actually...^There's something I'd like to talk/to you about... $6I can't say it here.]"
+
+;C"見る/調べ/,外/"
+C"Look/Examine/,Outside/"
+
+;=0000
+
+;P"静かな町並みです。"
+P"A quiet street."
+
+;P"気になるような物は見当りませんが・・・"
+P"There is nothing worth taking notice of..."
+
+;C"調べ/,ブロン/"
+C"Examine/,Bronwyn/"
+
+;P"どうやって調べましょう。"
+P"Examine how?"
+
+;C"話す/尋ね/,優介/"
+C"Talk/Ask/,Yuusuke/"
+
+;P"「$6それは誰のことだい？」"
+P"[$6Who is that?]"
+
+;C"尋ね/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;P"「$6それも忘れてしまったのか・・・^しかし、それをこんな所で口にしてはいけない。いつ敵の耳に入るかも・・」"
+P"[$6You forgot that too, unfortunately...^However,/we should not speak here. Who knows what enemies may/be listening?]"
+
+;C"見る/調べ/,喫茶/"
+C"Look/Examine/,Cafe/"
+
+;P"どこにでもありそうな喫茶店です。/変った所などないですが。"
+P"It's an ordinary looking cafe. There isn't anything/unusual."
+
+;C"戦う/逃げ/,男/"
+C"Fight/Escape/,Man/"
+
+;P"え？　ここではチョット・・・"
+P"Huh? Here's a little..."
+
+;U
+
+;=0105
+
+;P"「$6そうだ、これを渡しておくよ」/そう言うと男の人は、そそくさと店を出て行きました。"K0701+16J04
+P"$6[That's right, this is for you.] With that said,/the man left the shop in a hurry."K0701+16J04
+
+;+01
+
+;S04
+
+;I
+
+;D04P"別の男の人がやってきました。/今度こそ、山田記者の様です。"P"「$7やぁ、遅くなってゴメンよ。君が電話をくれたんだね」"
+D04P"Another man arrives.  This time, it looks like/Yamada."P"[$7Ah, sorry I'm late. You called me,/right?]"
+
+;N
+
+;L"山田記者"327125380246L"テーブル"130188274334=1601
+L"Yamada"327125380246L"Table"130188274334=1601
+
+;L"カプセル"135171186239
+L"Capsules"135171186239
+
+;C"見る/調べ/,山田/"
+C"Look/Examine/,Yamada/"
+
+;P"見るからに新聞記者と言う風貌です。"
+P"He's the splitting image of a newspaper reporter."
+
+;C"調べ/見る/,外/"
+C"Examine/Look/,Outside/"
+
+;=0000
+
+;P"いつもと変りない風景です。"
+P"The scenery is the same as always."
+
+;P"何やら外が騒がしいようです。"
+P"There seems to be some kind of ruckus outside."
+
+;C"見る/,テーブル/"
+C"Look/,Table/"
+
+;P"何の変哲もないテーブルです。"=1601
+P"It's an ordinary table."=1601
+
+;P"テーブルの上には、さっきの男が置いていった、小さな箱があります。"
+P"The small box the man left earlier is on the/table."
+
+;C"尋ね/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=0100
+
+;P"「$7何だいそりゃ？何かのコードネームみたいだけど」"+01
+P"[$7What is that? It seems like some kind of code/name.]"+01
+
+;P"「$7とにかく、そいつを手掛りに当たってみるよ」"
+P"[$7Anyhow, seems like that guy has some kind of/clue.]"
+
+;C"尋ね/話す/,山田/*/"
+C"Ask/Talk/,Yamada/*/"
+
+;?00
+
+;P"「$7君は、あの森に倒れていたんだって？　確かにこの事件と関係ありそうだな」"+00
+P"[$7You collapsed in that forest? It certainly may/have something to do with this incident.]"+00
+
+;P"「$7さっき変な男に会ったって？どうやら学校へ行って、そいつに会わなきゃならないかも・・・」"+00
+P"[$7You said you saw strange man earlier? I wonder/if you I will have to see that person when you I go/to school...]"+00
+
+;P"「$7ここだけの話だけど・・・^裏に巨大な軍事組織が介入しているようなんだ・・・」"K0601M09+39+00
+P"[$7This is just between you and me...^It seems a/huge military affairs organization is really/responsible for all this...]"K0601M09+39+00
+
+;P"「$7とにかく、詳しい取材をしてみないとな」"
+P"[$7Anyhow, I still have to collect detailed data.]"
+
+;C"尋ね/調べ/,組織/"
+C"Ask/Examine/,Organization/"
+
+;P"「$7オレもまだ、詳しい所は、調査中なんだ」"
+P"[$7I'm still investigating the details myself.]"
+
+;C"尋ね/,新聞/"
+C"Ask/,Newspaper/"
+
+;?02
+
+;P"「$7こいつは、オレが書いた記事だよ」"+02
+P"[$7I wrote the article for this one.]"+02
+
+;P"「$7そこに出ている写真も、実は、オレが写したんだ」"+02
+P"[$7I took the photo that appears here too.]"+02
+
+;P"「$7この写真は、学校の近くで、偶然撮ったんだが・・・"P"$7位置関係から行くと、墜落地点と君の倒れていた地点に何らかの関係があると思えるね」"+02
+P"[$7I took this photograph near the school by/chance..."P"$7When you go, the relation of the/position to the crash site and where you collapsed/makes it seems likely there is a connection.]"+02
+
+;P"「$7詳しい事が分ったら、真っ先に君に連絡するよ」"
+P"[$7When I learn anything else, you'll be the first/to know.]"
+
+;C"話す/尋ね/,優介/"
+C"Talk/Ask/,Yuusuke/"
+
+;P"「$7君を助けてくれた少年の事かい？/$7確かに何か知ってるかも知れないけど、彼の居場所までは知らないな」"
+P"[$7The boy who helped you? $7He certainly may know/something, but I don't know his whereabouts.]"
+
+;C"見る/,カプセ/"
+C"Look/,Capsules/"
+
+;=1601
+
+;P"さっきの男が置いて行ったカプセルが、テーブルの上にあります。"
+P"The capsules the man dropped off earlier are on top/of the table."
+
+;P"何に使う物でしょうか。"
+P"I wonder what they're for?"
+
+;C"取る/,カプセ/"
+C"Take/,Capsules/"
+
+;=1601
+
+;M65M02P"カプセルをポケットに、しまいました。"+16+11
+M65M02P"Placed capsules in pocket."+16+11
+
+;P"もう、持っています。"
+P"You already have them."
+
+;C"調べ/,ブロン/"
+C"Examine/,Bronwyn/"
+
+;P"どうやって調べましょう。"
+P"Examine in what way?"
+
+;C"調べ/,カプセ/"
+C"Examine/,Capsules/"
+
+;P"小さな箱の中に、錠剤のカプセルが並んでいます。"
+P"Capsule pills are lined up inside the small box."
+
+;C"尋ね/,カプセ/"
+C"Ask/,Capsules/"
+
+;P"「$7さっき変な男が置いていったって？何だろうな」"
+P"[$7You said a strange man left them earlier? I/wonder what they are?]"
+
+;C"調べ/,新聞/"
+C"Examine/,Newspaper/"
+
+;P"普通の新聞にしか、見えませんが」"
+P"You can see anything but an ordinary newspaper."
+
+;C"外/,行く/"
+C"Outside/,Go/"
+
+;P"「$7おいおい、そんなにあわてないでくれよ」"
+P"[$7Whoa, don't be in such a hurry.]"
+
+;C"調べ/"
+C"Examine/"
+
+;P"どこといって、変った所はないですが。"
+P"There's nothing out of the ordinary."
+
+;C"尋ね/"
+C"Ask/"
+
+;P"「$7何の事か、オレにもわからないな」"
+P"[$7I don't know what it is either.]"
+
+;U
+
+;=0003
+
+;=0100
+
+;P"「$7ところで、その組織と言うのが・^・^・^」^"K0402P"その時、遠くで何かの爆発するような音がしました。/山田記者は、外へ飛出して行きました。"J05
+P"[$7By the way, about those called 'The/Organization'.^.^.^]^"K0402P"At that moment there was a/sound like something exploded in the distance. Yamada/leapt up and ran outside."J05
+
+;S05
+
+;I
+
+;D05P"山田記者は店を飛出して行き、あなたは一人取り残されてしまいました。"=1602
+D05P"Yamada flew out of the shop and you were left all alone."=1602
+
+;M66
+
+;M07
+
+;N
+
+;L"山田記者"267260302330L"森"012312047332L"街"036142069196L"学校"031291052317=1601
+L"Yamada"267260302330L"Forest"012312047332L"Town"036142069196L"School"031291052317=1601
+
+;L"カプセル"166292196341
+L"Capsules"166292196341
+
+;C"見る/,カプセ/"
+C"Look/,Capsules/"
+
+;=1601
+
+;P"さっきの男が置いて行ったカプセルが、テーブルの上に置いてあります。"
+P"The capsules the man dropped off earlier are on the/table."
+
+;P"何に使う物でしょうか。"
+P"I wonder what they're for?"
+
+;C"取る/,カプセ/"
+C"Take/,Capsules/"
+
+;=1601
+
+;M66M02P"カプセルをポケットにしまいました。"+16+11
+M66M02P"Put capsules in pocket."+16+11
+
+;P"もう、持っています。"
+P"You already have it."
+
+;C"調べ/,カプセ/"
+C"Examine/,Capsules/"
+
+;P"小さな箱の中に、薬の錠剤の様な物が並んでいます。"
+P"What appear to be medicine pills are lined up/inside a small box."
+
+;C"見る/,山田/"
+C"Look/,Yamada/"
+
+;P"あっ^と言う間に出て行きました。でも今ならまだ、間に合うかもしれません。"
+P"Ah, ^he took off just like that. But there's/probably still time."
+
+;C"追う/行く/,山田/街/"
+C"Chase/Go/,Yamada/Town/"
+
+;=1601
+
+;P"オット！出て行く前に何か忘れていませんか？"
+P"Whoa! Before you leave aren't you forgetting/something?"
+
+;P"あなたは、山田記者を追いかけて、街に向かいました。"J07
+P"You went into town in pursuit of Yamada."J07
+
+;C"行く/,森/"
+C"Go/,Forest/"
+
+;=1601
+
+;P"オット！出て行く前に何か忘れていませんか？"
+P"Whoa! Before you leave aren't you forgetting/something?"
+
+;P"あなたは、手掛りを求めて森に向かいました。"J14
+P"You went into the forest in search of clues."J14
+
+;C"行く/,学校/"
+C"Go/,School/"
+
+;=1601
+
+;P"オット！出て行く前に何か忘れていませんか？"
+P"Whoa! Before you leave aren't you forgetting/something?"
+
+;P"学校へ行ってみる事にしました。"J06
+P"You tried going to school."J06
+
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;=1601
+
+;P"オット！出て行く前に何か忘れていませんか？"
+P"Whoa! Before you leave aren't you forgetting/something?"
+
+;P"宛てもなく店を出ました。気が付くと街の中でした。"J07
+P"You left without the address. Before you know it,/you are in the center of town."J07
+
+;C"見る/,外/"
+C"Look/,Outside/"
+
+;P"何か混乱が起こっている様です。こんな所でじっとしていられませんよ。"
+P"It looks like some disturbance is happening. You/can't stay around here."
+
+;C"行く/,*/"
+C"Go/,*/"
+
+;P"どこへ行きます？"
+P"Where are you going?"
+
+;C"話す/尋ね/,山田/"
+C"Talk/Ask/,Yamada/"
+
+;P"山田記者なら、とっくに出て行きましたよ。"
+P"If you're looking for Yamada, he took off already."
+
+;S06
+
+;I
+
+;F=7032
+
+;J60
+
+;D06=5200
+
+;P"学校にたどりつきました。"+52
+P"You made it to school."+52
+
+;P"どこを調べましょう。"
+P"Where shall we investigate?"
+
+;N
+
+;L"教室"225178264225L"体育館"151244224295L"理科室"150139185225L"放送室"266225315265L"校庭"225231266317L"森"012312047332L"街の中"036142069196=5200
+L"Class"225178264225L"Gymnasium"151244224295L"Science Room"150139185225L"Broadcast Room"266225315265L"Campus"225231266317L"Forest"012312047332L"Center Of Town"036142069196=5200
+
+;=5201
+
+;=5202
+
+;=2901
+
+;L"屋上"185139284175
+L"Rooftop"185139284175
+
+;L"優介の家"106197114209=5206
+L"Yuusuke's House"106197114209=5206
+
+;L"研究所"091291097302
+L"Lab"091291097302
+
+;C"行く/,森/"
+C"Go/,Forest/"
+
+;P"森へ行ってみましょうか。"=5203
+P"Let's go to the forest."=5203
+
+;J10
+
+;=5206
+
+;=5800
+
+;J11
+
+;J22
+
+;J14
+
+;C"行く/,研究/"
+C"Go/,Lab/"
+
+;P"一旦、研究所に戻りましょう。"J18
+P"Let's go back to the research facility for now."J18
+
+;C"行く/,家/"
+C"Go/,House/"
+
+;P"優介の家へ行ってみますか。"=5206
+P"You try heading to Yuusuke's."=5206
+
+;J20
+
+;J12
+
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"街の方へ行ってみましょう。"=5206
+P"Let's go to town."=5206
+
+;J21
+
+;=5203
+
+;J15
+
+;J07
+
+;C"行く/,教室/"
+C"Go/,Class/"
+
+;P"優介を探しに行ってみますか。"=5206
+P"You try going to look for Yuusuke."=5206
+
+;J52
+
+;J32
+
+;C"行く/,体育/"
+C"Go/,Gym/"
+
+;P"体育館に行ってみることにしました。"=5206
+P"You try going to the gymnasium."=5206
+
+;J55
+
+;J29
+
+;C"行く/,理科/"
+C"Go/,Science/"
+
+;P"理科室に行ってみましょう。"J34
+P"Let's go to the science room."J34
+
+;C"行く/,屋上/"
+C"Go/,Rooftop/"
+
+;=5206
+
+;P"屋上には、もう誰もいないみたいですよ。"
+P"It seems like no one is up on the rooftop."
+
+;P"全体を見渡すには、やっぱり屋上ですよね。"J40
+P"You can see all around. It is the rooftop, after all."J40
+
+;C"行く/,放送/"
+C"Go/,Broadcast/"
+
+;P"情報を得るには、放送室が一番！"=5206
+P"The broadcast room is best for obtaining/information!"=5206
+
+;J53
+
+;J31
+
+;C"行く/,校庭/"
+C"Go/,Campus/"
+
+;P"人が集まりつつある校庭に行く事にしました。"=5206
+P"People are gathering on campus."=5206
+
+;J54
+
+;J33
+
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"学校から、ひとまず外へ出てみますか。/ところで、どこへ行きます？"
+P"Try leaving the school for now? By the way, where are/you going?"
+
+;C"行く/,*/"
+C"Go/,*/"
+
+;P"どこへ行きます？"
+P"Where are you going?"
+
+;C"見る/,*/"
+C"Look/,*/"
+
+;P"学校は、何だか騒がしいようです。"
+P"The school seems a little noisy."
+
+;C"尋ね/"
+C"Ask/"
+
+;P"たずねるような人は、ここにはいないようです。"
+P"It appears there is no one here to ask."
+
+;C"調べ/"
+C"Examine/"
+
+;P"調べたい場所へ、直接行ってみましょう。"
+P"Let's head right to the place you want to examine."

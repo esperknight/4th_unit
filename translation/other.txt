@@ -1,0 +1,132 @@
+//Ptr Pos : 00003E06
+// Pos : 0000A4C2
+ドライブ０にディスクＡを入れて下さい。
+Please insert disk A in drive 0.
+//Ptr Pos : 00003E56
+// Pos : 0000A4E9
+ドライブ１にディスクＢを入れて下さい。
+Please insert disk B in drive 1.
+//Ptr Pos : 00004ADE
+// Pos : 0000A8E3
+－－味方－－
+--Ally--
+//Ptr Pos : 00004AFA
+// Pos : 0000A8F0
+－－敵－－
+--Enemy--
+//Ptr Pos : 00004EF8
+// Pos : 0000A8FB
+誰を
+who
+//Ptr Pos : 00005092
+// Pos : 0000A900
+味方
+ally
+//Ptr Pos : 000050B6
+// Pos : 0000A905
+敵
+enemy
+//Ptr Pos : 000050F2
+// Pos : 0000A908
+が
+
+//Ptr Pos : 00005136
+// Pos : 0000A90B
+で
+with
+//Ptr Pos : 00005184
+// Pos : 0000A90E
+を攻撃
+attack
+//Ptr Pos : 000051F6
+// Pos : 0000A915
+－－味方－－
+--Ally--
+//Ptr Pos : 00005212
+// Pos : 0000A922
+－－敵－－
+--Enemy--
+//Ptr Pos : 00005698
+// Pos : 0000A92D
+は
+
+//Ptr Pos : 000056BE
+// Pos : 0000A930
+のダメージ
+damage
+//Ptr Pos : 0000571E
+// Pos : 0000A93B
+はジャンプでかわした
+dodged with a jump
+//Ptr Pos : 0000572C
+// Pos : 0000A950
+は攻撃をかわした
+dodged attack
+//Ptr Pos : 00005740
+// Pos : 0000A961
+ダメージは
+damage
+//Ptr Pos : 00005794
+// Pos : 0000A96C
+は
+
+//Ptr Pos : 000057BA
+// Pos : 0000A96F
+のダメージ
+damage
+//Ptr Pos : 0000596E
+// Pos : 0000A983
+－－味方－－
+--Ally--
+//Ptr Pos : 0000598A
+// Pos : 0000A990
+－－敵－－
+--Enemy--
+//Ptr Pos : 00005A18
+// Pos : 0000A97A
+は倒れた
+collapsed
+//Ptr Pos : 0000A6A8
+// Pos : 0000A868
+ブロンウィン
+Bronwyn
+//Ptr Pos : 0000A6DC
+// Pos : 0000A875
+ステラ
+Stella
+//Ptr Pos : 0000A710
+// Pos : 0000A87C
+スドォ
+Psudo
+//Ptr Pos : 0000A744
+// Pos : 0000A883
+ブロニー
+Vroni
+//Ptr Pos : 0000A778
+// Pos : 0000A88C
+アッシュ
+Ash
+//Ptr Pos : 0000A7AC
+// Pos : 0000A895
+セス
+Seth
+//Ptr Pos : 0000A7E0
+// Pos : 0000A89A
+パンチ
+punch
+//Ptr Pos : 0000A7E4
+// Pos : 0000A8A1
+キック
+kick
+//Ptr Pos : 0000A7E8
+// Pos : 0000A8A8
+ジャンプ
+jump
+//Ptr Pos : 0000A7EC
+// Pos : 0000A8B1
+サイコパワー
+psycho-power
+//Ptr Pos : 0000A7F0
+// Pos : 0000A8BE
+関節技
+joint lock

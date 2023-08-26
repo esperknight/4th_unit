@@ -1,0 +1,278 @@
+;S00
+
+;N
+
+;L"ブロンウィン"131025164066L"外"347069380110=5500
+L"Bronwyn"131025164066L"Outside"347069380110=5500
+
+;L"優介"311025344066
+L"Yuusuke"311025344066
+
+;=3900
+
+;L"組織"131069164110
+L"Organization"131069164110
+
+;=2300
+
+;L"統合軍"167069200110
+L"Joint Forces"167069200110
+
+;=2400
+
+;L"ＷＷＷＦ"131069164110
+L"WWWF"131069164110
+
+;=1300
+
+;L"新聞"167025200066
+L"Newspaper"167025200066
+
+;=2100
+
+;L"サイコパワー"311069344110
+L"Psycho Power"311069344110
+
+;=1400
+
+;=5500
+
+;L"サイコリング"203025236066
+L"Psycho Ring"203025236066
+
+;=1100
+
+;L"カプセル"239025272066
+L"Capsules"239025272066
+
+;=1200
+
+;L"エア・ガン"275025308066
+L"Air-Gun"275025308066
+
+;C"見る/調べる/,エア・/"
+C"Look/Examine/,Air-/"
+
+;P"６ミリのプラスチック弾を射つ、エア・ガンです。/弾も入っています。"
+P"An air gun that shoots six millimeter plastic/bullets. It's already loaded."
+
+;C"見る/調べ/,新聞/"
+C"Look/Examine/,Newspaper/"
+
+;P"数日前の新聞です。/「謎の航空機、撃墜」の記事が載っています。"
+P"Newspaper from a few days ago. It has a an article/titled [Mysterious Aircraft Shot Down]."
+
+;C"見る/調べる/,リング/"
+C"Look/Examine/,Ring/"
+
+;=1401
+
+;P"サイコパワーを使うための、制御リングです。/早く探さないと・・・"
+A control ring for using Psycho Power./I have to find it right away...
+
+;=1402
+
+;P"サイコパワー制御リングです。/大切に持っておきましょう。"
+P"It's a Psycho Power control ring. I'd  better hold/on to it carefully.
+
+;C"見る/調べる/,カプセル/"
+C"Look/Examine/,Capsules/"
+
+;=3400
+
+;P"何かの薬みたいです。"
+P"Some kind of medicine."
+
+;P"生命エネルギー・カプセルです。"
+P"Life Energy Capsule."
+
+;=1101
+
+;P"９個あります。"
+P"There are 9 units.
+
+;=1102
+
+;P"８個あります。"
+P"There are 8 units.
+
+;=1103
+
+;P"７個あります。"
+P"There are 7 units.
+
+;=1104
+
+;P"６個あります。"
+P"There are 6 units.
+
+;=1105
+
+;P"５個あります。"
+P"There are 5 units.
+
+;=1106
+
+;P"４個あります。"
+P"There are 4 units.
+
+;=1107
+
+;P"３個あります。"
+P"There are 3 units.
+
+;=1108
+
+;P"２個あります。"
+P"There are 2 units.
+
+;=1109
+
+;P"１個あります。"
+P"There is 1 unit.
+
+;C"使う/,カプセル/"
+C"Use/,Capsules/"
+
+;=1100
+
+;P"残念ですが、カプセルを持っていません。"
+P"Unfortunately you do not have a capsule."
+
+;=1110
+
+;P"カプセルは、なくなりました。"
+P"The capsules ran out."
+
+;P"カプセルを飲みました。"+11=9641
+P"You swallow the capsule."+11=9641
+
+;=9642
+
+;=9643
+
+;=9644
+
+;=9645
+
+;+96+96+96+96+96
+
+;C"使う/,サイコ/"
+C"Use/,Psycho/"
+
+;P"ここで使うのは、危険です。"
+
+; Are we saying we need to be in danger here to use it?
+
+;P"You must be in danger before using it!"
+P"It's dangerous to use it here."
+
+;C"使う/,リング/"
+C"Use/,Ring/"
+
+;P"えっ？サイコパワーを使うんですか？"
+P"Eh?  You want to use Psycho Power?"
+
+;C"尋ねる/,ブロンウィン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"「さあ、なんの事だか・・・」"
+P"「Well, what kind of thing...?」"
+
+;P"しっかりしてください。あなたの名前ですよ。"
+P"Get a hold of yourself.  It's your name."
+
+;C"見る/"
+C"Look/"
+
+;P"そっちを見ましたが・・・"
+P"Look over there.."
+
+;C"話す/"
+C"Talk/"
+
+;P"おーい、返事してくれー"
+
+; (??? I'm guessing kure adds more emphasis to it, making it more of a command?)
+
+;Matt: Yep. :)
+P"Hey, answer me!"
+
+;C"調べる/"
+C"Examine/"
+
+;P"キョロキョロ　何も見つかりませんねぇ"
+
+; (Interesting, one of those places we can't translate or could we?"
+
+;P"There's nothing to look at..."
+P"You look around. You don't find anything..."
+
+;C"取る/"
+C"Take/"
+
+;P"持って行っても、仕方ないみたいですね。"
+P"Looks like it's no good, even if you try to take/it."
+
+;C"使う/"
+C"Use/"
+
+;P"何も起きませんが。"
+P"Nothing happened."
+
+;C"尋ねる/"
+C"Ask/"
+
+;P"「さーて？」^わかんないですね。"
+P"Hmm... I don't know..." 
+
+;C"行く/"
+C"Go/"
+
+;P"え？^　どこへ行くんです。"
+P"Eh?^Go where?"
+
+;C"追う/"
+C"Chase/"
+
+;P"誰を追いかけるんです？"
+P"Follow whom?"
+
+;C"逃げる/"
+C"Escape/"
+
+;P"どこへ逃げたら良いでしょう。"
+P"It might be better to run away somewhere."
+
+;C"はい/"
+C"Yes/"
+
+;P"「ハーイ」"
+P"[Ye-es!]"
+
+;C"いいえ/"
+C"No/"
+
+;P"「イヤ！」"
+P"[No-o!]"
+
+;C"戦う/"
+C"Fight/"
+
+;P"エッ？！こんなとこで戦うのは、ちょっと・・・"
+P"Huh?! Fighting at this point is a little, uh..."
+
+;C"助ける/"
+C"Help/"
+
+;P"今のあなたには、無理なことです。"
+P"It's a little too much for you right now."
+
+;T
+
+;=1110
+
+;P"カプセルは、なくなりました。"R11
+P"The capsule ran out."R11

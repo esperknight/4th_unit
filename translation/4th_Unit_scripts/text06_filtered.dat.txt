@@ -1,0 +1,203 @@
+
+
+
+
+;S22
+
+;I
+
+;D25+55P"丁度、森でアッシュとセスに合流しました。"WD44P"おや？あそこに居るのは、優介みたいですよ。"
+D25+55P"You were promptly joined in the forest by Ash and/Seth."WD44P"Oh!? That looks like Yuusuke over there!"
+;N
+
+;L"アッシュ"347194382305L"セス"138140186284L"優介"266182318308=0800
+L"Ash"347194382305L"Seth"138140186284L"Yuusuke"266182318308=0800
+
+;L"サイコリング"245219261231
+L"Psycho Ring"245219261231
+
+;L"サイコリング"203025236066
+L"Psycho Ring"203025236066
+
+;C"見る/調べる/,リング/"
+C"Look/Examine/,Ring/"
+
+;P"サイコリングは無事でした。"
+P"The Psycho Ring is unharmed."
+;C"尋/,リング/"
+C"Ask/,Ring/"
+
+;P"「$7この先の君の倒れていた近くに落ちていたんだ。そう言えば、その近くに大きなベッドのような機械があったなぁ」":0101
+P"[$7It fell near where you collapsed. Speaking of/which, there was this large bed-like machine in the/same vicinity.]":0101
+;C"話す/尋/,アッシ/セス/"
+C"Talk/Ask/,Ash/Seth/"
+
+;?00
+
+;P"「$8どうやらサイコリングは、彼が持っていたみたいね」"+00
+P"[$8It looks like he ended up with the Psycho Ring/somehow.]"+00
+;=0100
+
+;P"「$9見つかって本当に良かったわ。でも彼は、どこでリングを拾ったのかしら？」":0301
+P"[$9It's really good that he found it, but I wonder/where it was? ]":0301
+;P"「$8大きな機械って何の事かしら」"+00
+P"[$8I wonder what this big machine is...]"+00
+;P"「$9その機械のある所へ行ってみない？」":0401
+P"[$9Why don't we go take a look at the/machine?]":0401
+;C"話す/尋/,優介/"
+C"Talk/Ask/,Yuusuke/"
+
+;=0200
+
+;P"「$7やぁ、君を探していたんだ。随分探したよ」"+02
+P"[$7Man, I was looking for you. I looked all/over!]"+02
+;=0300
+
+;P"「$7この腕輪みたいな物を渡そうと思って。何か手掛りに名るんじゃないか」"
+P"[$7I wanted to give you this bracelet looking/thing. I wonder if it's some kind of clue?]"
+;P"「$7この先の君の倒れていた近くに落ちていたんだ。そう言えば、その近くに大きな機械があったなぁ」":0101
+P"[$7It was on the ground near where you collapsed./Speaking of which, there was some kind of big machine/nearby.]":0101
+;C"取る/,リング/"
+C"Take/,Ring/"
+
+;P"どうやらこれが、サイコリングみたいですね。"M71:1402:0801
+P"It seems like this is the Psycho/Ring."M71:1402:0801
+;C"行く/,*/"
+C"Go/,*/"
+
+;P"「$7オレ、学校から抜け出して来たんだ。もう、戻らなきゃ。じゃあな」"P"そう言うと、優介は学校の方へと走って行きました。"P"「$9私たちは、機械の方に行ってみましょう」/アッシュが言いました。"=1402
+P"[$7I snuck out of school to come here.I have to/go back now. See ya!,]"P" said Yuusuke as he went/running toward school."P"[$9Let's check out that/machine,] said Ash."=1402
+;P"優介：「$7おっと、これを忘れてるぜ」/サイコリングを忘れちゃいけませんね。":1402
+P"Yuusuke$7:[Oh, you forgot this.] You mustn't forget/the Psycho Ring.":1402
+;R55J19
+
+;T
+
+;=1402
+
+;=0100
+
+;P"アッシュ：「$9何か、彼に手掛りになる事が聞けないかな」"
+P"Ash:[$9I wonder if he's heard anything that could/be a clue.]"
+;P"「$7オレ、学校から抜け出してきたんだ。もう、戻らなきゃ。じゃあな」"P"そう言うと、優介は学校の方へ走って行きました。"P"「$9私たちは、機械の方に行ってみましょう」/アッシュが言いました。"R55J19
+P"[$7I snuck out of school to come here. I have to/go back now. See ya!,]"P" said Yuusuke as he went/running toward school."P"[$9Let's check out that/machine,] said Ash."R55J19
+;S23
+
+;I
+
+;P"越中：「$6三人一緒だと目立つ。アッシュ、セス、君たちは別行動で行きたまえ。ＷＷＷＦは攻撃を待ってくれないからな」"P"アッシュ、セス：「$8ハイッ！！」"P"越中：「$6ブロンウイン、サイコリングを必ず見つけ出してくれ。たのむぞ！」"=5205
+P"Etchu:[$6Three people together are bound to be/conspicuous. Ash, Seth: please go separately. The/WWWF won't attack you]"P"Ash,/Seth:[$8Ok!]"P"Etchu:[$6Bronwyn, please be sure to/hunt down the Psycho Ring. I'm counting on/you!]"=5205
+;+52
+
+;?18
+
+;P"街に行ってみましょう。"K0701J21
+P"Let's head to town."K0701J21
+;P"とにかく、学校へ戻ってみましょう。"K0701J06
+P"Anyhow, let's try heading back to school."K0701J06
+;P"一旦、優介の家に行きましょう。"K0701J20
+P"For now, let's go to Yuusuke's house."K0701J20
+;S24
+
+;I
+
+;N
+
+;L"放送部員"261166345314L"放送室"128120383343L"機械"128234202343
+L"Broadcast Staff"261166345314L"Broadcast Room"128120383343L"Machine"128234202343
+
+;C"話す/,*/部員/"
+C"Talk/,*/Staff/"
+
+;?00
+
+;P"「$7え？^誰か来なかったかって？^そう言えば、うちの部員の誰かが屋上に見慣れない女の人がいるとかいってたな」"K0501:2901+00
+P"[$7Huh?^Has anyone come by?^Now that you mention/it, my staff said something about an unfamiliar woman/on the roof.]"K0501:2901+00
+;P"「$7もし、藤原先生に見つかったら、サブミッションを食らわされるぞ」"+00
+P"[$7Be sure to apply a submission hold to Fujiwara/when you find him!]"+00
+;P"「$7外で何か大変な事が起こっているらしいよ」"+00
+P"[$7It appears something serious is happening/outside.]"+00
+;P"「$7何が起こってるか、こっちが聞きたいよ」"
+P"[$7Could you tell me what's going on?]"
+;C"尋/話す/,優介/"
+C"Ask/Talk/,Yuusuke/"
+
+;P"「$7えっ？校庭にいなかったかい。しょうがない奴だな」"
+P"[ $7What! They weren't on campus? What a/troublemaker.]"
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$7そんなこと知らないよ」"
+P"[$7I wouldn't know that kind of thing.]"
+;C"尋/,ＷＷ/統合/"
+C"Ask/,WWWF/Joint Forces/"
+
+;P"「$7なんだい、そりゃ？」"
+P"[$7What's that?]"
+;C"尋/,*/部員/"
+C"Ask/,*/Staff/"
+
+;P"「$7さぁね。僕にもわからん事だらけさ」"
+P"[$7Who knows? There are plenty of things I don't/know either.]"
+;C"尋/,機械/"
+C"Ask/,Machine/"
+
+;P"「$7放送用の機械さ」"
+P"[$7It's broadcasting equipment.]"
+;C"尋/"
+C"Ask/"
+
+;P"「$7何が起こってるか、こっちが知りたいよ」"
+P"[$7I'd like to know what's going on, myself.]"
+;C"見る/,部員/"
+C"Look/,Staff/"
+
+;P"落ちつかない様子です。"
+P"They look rattled."
+;C"調べ/,部員/"
+C"Examine/,Staff/"
+
+;P"「$7おっ、おい。やめろ、くすぐったい！」"
+P"[$7H-hey. Enough, that tickles!]"
+;C"見る/,機械/"
+C"Look/,Machine/"
+
+;P"ゴチャゴチャしてて、何が何だかわかりません。"
+P"It's going haywire. I have no idea what's what's/going on."
+;C"調べ/,機械/"
+C"Examine/,Machine/"
+
+;P"「$7こらっ。だめだよ、勝手に触っちゃ」"
+P"[$7Hey-, quit it! No touching.]"
+;C"見る/調べ/,室/"
+C"Look/Examine/,Room/"
+
+;P"機械が、所狭しと並んでいます。"
+P"Machines are crammed into a large pile."
+;C"見る/調べ/,優介/"
+C"Look/Examine/,Yuusuke/"
+
+;P"ここには、いません。"
+P"He's not here."
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"別の場所を調べに行きましょう。"J06
+P"Let's go look at another place."J06
+;C"使う/,機械/"
+C"Use/,Machine/"
+
+;P"「$7おい何するんだ。これはカラオケの機械じゃないんだぜ」"
+P"[$7Hey, what are you doing? This isn't a karaoke/machine.]"
+;S25
+
+;I
+
+;K0100D24P"あなたは戦闘に敗れました。/残念ながら、あなたの冒険はここまでです。"A"ＧＡＭＥ　ＯＶＥＲ"K0301H
+K0100D24P"You've been defeated in battle. I'm afraid to/say that your adventure is finished."A"GAME OVER!"K0301H
+;S26
+
+;I
+
+;D16P"気が付くと研究所の中でした。越中博士が、笑顔で迎えてくれました。"P"「$6ありがとう。君たちのおかげで奴らを退けることができた。"P"$6しかし、奴らはまた次の攻撃をしてくるに違いない。/$6ブロンウイン、今後も私たちに協力してくれ」"K0103P"あなたは、統合軍のエージェントとして、ＷＷＷＦと戦う事を誓うのでした。"WE
+D16P"By the time you realize it, you're inside the/lab. You're greeted by Dr. Etchu's smiling/face."P"[$6Thank you. Thanks to you we were able to/repel those guys."P"$6 However, they'll attack again/I'm sure. $6Bronwyn, please assist us from now on as/well.]"K0103P"You commit to fight the WWWF as a/Joint Forces agent."WE

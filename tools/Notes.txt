@@ -1,0 +1,3 @@
+4th_unit_extract - Must be in same directory as text*.dat files.
+
+4th_unit_verifier - Just drag and drop the script file to be checked.

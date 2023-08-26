@@ -1,0 +1,308 @@
+
+
+
+
+;S54
+
+;I
+
+;D32P"校庭には、生徒たちが集まっています。"
+D32P"The students are gathering at the campus."
+;N
+
+;L"校庭"132277378337L"先生"325122382196L"生徒"207263290344
+L"Campus"132277378337L"Teacher"325122382196L"Pupil"207263290344
+
+;C"調べ/,先/"
+C"Examine/,Teacher/"
+
+;P"「$8こっ、こら！やめなさい、くすぐったい！」"
+P"[$8H-Hey! Stop, that tickles!]"
+;C"調べ/,徒/"
+C"Examine/,Pupil/"
+
+;P"「$7おい！何キョロキョロしてんだよ」"
+P"[$7Hey! What are you looking me up and down for?]"
+;C"見る/,校庭/"
+C"Look/,Campus/"
+
+;P"皆徐々に、落ち着いてきました。"
+P"Everyone is slowly calming down."(???)
+;C"見る/,徒/優介/"
+C"Look/,Pupil/Yuusuke/"
+
+;P"やはり、ここにも優介の姿はありません。"
+P"Of course, there is no sign of Yuusuke here/either."
+;C"見る/,先/"
+C"Look/,Teacher/"
+
+;P"先生たちも戸惑っているようです。"
+P"The teachers look confused as well."
+;C"話す/尋/,徒/"
+C"Talk/Ask/,Pupil/"
+
+;?00
+
+;P"「$7優介を探してるって？そう言えばさっきいたな・・・」"+00
+P"[$7You say you're looking for Yuusuke? Speaking of/which, he was around earlier...]"+00
+;P"「$7森へ行くなんて、言ってたな。/$7何でも渡しそこねた物があるとかで」"+00:5801
+P"[$7He said something about going to the forest./$7He had something he intended to give you, no matter/what.]"+00:5801
+;P"「$7優介がいないなんて、先生にはないしょだぜ！」"
+P"[ $7Keep Yuusuke's absence a secret from the/teachers!]"
+;C"話す/尋/,先/"
+C"Talk/Ask/,Teacher/"
+
+;?01
+
+;P"「$6誰がいないって？！」"+01
+P"[$6You're saying he's not around?!]"+01
+;P"「$6何？！優介。あいつまた居なくなったのか」"+01
+P"[$6What?! Yuusuke. He disappeared again?]"+01
+;P"「$6君たちは、ここでおとなしく待ってろ」"
+P"[$6You wait here like a good girl.]"
+;C"調べ/,優介/"
+C"Examine/,Yuusuke/"
+
+;P"見渡してみましたが、優介の姿は見えませんね。"
+P"You look around, but there's no sign of Yuusuke."
+;C"尋/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"先生：「$7優介がいないかって？その辺にいたはずだが・・・」"
+P"Teacher:[$7You say Yuusuke's missing? He should be around/there...]"
+;C"調べ/,校庭/"
+C"Examine/,Campus/"
+
+;P"どうやら、ここにも優介はいないみたいです。"
+P"It looks like Yuusuke isn't here either."
+;C"行く/調べ/,外/"
+C"Go/Examine/,Outside/"
+
+;P"別の場所を調べに行きましょう。"J06
+P"Let's go look someplace else."J06
+;C"話す/尋/,新聞/"
+C"Talk/Ask/,Newspaper/"
+
+;P"「$7こ、こんな古い物を・・・」"
+P"[$7S-Such an old thing...]"
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;P"「$7何だそりゃ？」"
+P"[$7What's that?]"
+;C"使う/,ガン/"
+C"Use/,Air-Gun/"
+
+;?02
+
+;P"こんな所で使ったら危ないですよ。"+02
+P"Watch out if you use that here."+02
+;P"先生に見つかったら取り上げられますよ！"+02
+P"A teacher will confiscate it when they find/you!"+02
+;P"こんな所でみせびらかしちゃダメだってば！"
+P"Don't show that kind of thing off here!"
+;S55
+
+;I
+
+;D28P"体育館にやってきました。/藤原先生が立っています。"
+D28P"You arrive at the gymnasium. Fujiwara is/standing there."
+;N
+
+;L"体育館"128120383343L"藤原先生"212160286290
+L"Gymnasium"128120383343L"Fujiwara"212160286290
+
+;C"話す/,*/藤/"
+C"Talk/,*/Fujiwara/"
+
+;?00
+
+;P"「$5まだ、うろうろしてたのか」"+00
+P"[$5You're still hanging around?]"+00
+;P"「$5ごちゃごちゃ言うな。皆校庭に集まっているんだ」"+00
+P"[$5No complaining. Everyone gather on campus!]"+00
+;P"「$5早く行きなさい」"
+P"[$5Hurry, get going.]"
+;C"尋/,*/藤/優介/"
+C"Ask/,*/Fujiwara/Yuusuke/"
+
+;?01
+
+;P"「$5何？優介がいない？！あいついつもこうなんだ」"+01
+P"[$5What? Yuusuke isn't around?! It's always like/this with him.]"+01
+;P"「$5教室は探したか？校庭に行ったと思ったんだがな」"+01
+P"[$5You looked in the classrooms? I thought he went/to the campus.]"+01
+;P"「$5よし、見つけたらサブミッションでおしおきしてやる」"
+P"[$5Ok, punish him with a submission hold when you/find him.]"
+;C"話す/尋/,統合/ＷＷ/カプ/サイコ/ブロン/"
+C"Talk/Ask/,Joint Forces/WWWF/Capsules/Psycho/Bronwyn/"
+
+;P"「$5なんだそりゃ。オレが知るはず無いだろ」"
+P"[$5What's that? How should I know?]"
+;C"行く/,外/"
+C"Go/,Outside/"
+
+;P"他の場所を調べに行きましょう。"J06
+P"Let's go look elsewhere."J06
+;C"戦う/,*/藤/"
+C"Fight/,*/Fujiwara/"
+
+;P"こんな所で遊んでないで、優介を探さなくちゃだめですよ。"
+P"This isn't a playground. We have to look for/Yuusuke."
+;C"話す/尋/,新聞/"
+C"Talk/Ask/,Newspaper/"
+
+;P"「$5先生は新聞記者じゃないぞ」"
+P"[$5The teacher isn't a newspaper reporter.]"
+;C"見る/,藤/"
+C"Look/,Fujiwara/"
+
+;P"体育の先生らしく、良い体格をしています。"
+P"He has a good physique, like a physical education/teacher."
+;C"調べ/見る/"
+C"Examine/Look/"
+
+;P"「$5何をキョロキョロしてるんだ」"
+P"[$5What are you looking me over for?]"
+;C"逃げ/"
+C"Escape/"
+
+;P"どこへ行くんです？"
+P"Go to where?"
+;S56
+
+;I
+
+;N
+
+;L"越中博士"200154314339L"街"036142069196L"学校"031291052317L"優介の家"106197114209
+L"Dr. Etchu"200154314339L"Town"036142069196L"School"031291052317L"Yuusuke's House"106197114209
+
+;C"話す/尋/,新聞/"
+C"Talk/Ask/,Newspaper/"
+
+;?49
+
+;P"「$6実は、統合軍のエージェントの一人が、君をＷＷＷＦから脱出させようとしたんだ」"+49
+
+;P"「$6しかし、作戦は失敗し、君は一時行方がわからなくなっていたんだよ」"+49
+
+;P"「$6脱出に使われたのが、写真の航空機だったわけだ」"+49
+
+;P"「$6その写真の機体に君が乗っていたんだよ」"+49
+
+;P"「$6まさか、ＷＷＷＦが市街の上空でミサイルを使うなど、思いもよらなかったよ」"+49
+
+;P"「$6奴らも今までは、世間の目から逃れて来たが、今度ばかりは、そうも行かなくなったろう」"+49
+
+;P"「$6今まで我々の存在も秘密にしてきたが、こう言う事態になった今、公表せざるをえんかも知れんな」"
+
+;C"話す/尋/,リング/"
+C"Talk/Ask/,Ring/"
+
+;P"「$6どうだった。サイコリングは見つかったか？/$6あれが無いとサイコパワーは使えんぞ」"
+P"[$6How did it go. Did you find the Psycho Ring?/$6You can't use Psycho-Power without that.]"
+;C"尋/,イコパ/"
+C"Ask/,ICP/"
+
+;?01
+
+;P"「$6リングなしで、サイコパワーを使ってはだめだ。/$6もし、使えば君の命が危ない」"+01
+P"[$6Without the ring, Psycho-Power is a no go. $6Your/life will be in danger if you use it.]"+01
+;P"「$6サイコパワーは生命エネルギーを極度に消耗する。大変危険な技なのだ」"+01
+P"[$6pPsycho-Power extremely exhausts your life/energy. It's a difficult, dangerous technique.]"+01
+;P"「$6サイコパワーを安易な気持ちで使うな。サイコパワーは命がけの技だ」"
+P"[$6Don't use Psycho-Power frivolously! Psycho-Power/is a deadly ability.]"
+;C"尋/,統合/"
+C"Ask/,Joint Forces/"
+
+;?06
+
+;P"「$6どうも今回は、我々の方が奴らに遅れを取っているようだ」"+06
+
+;P"「$6ＷＷＷＦが、この街にも前線基地を造っていたとはな・・・」"+06
+
+;P"「$6何としても奴らをこの世の中から叩き出してやらねば」"+06
+
+;P"「$6世界が平和なら、我々の活動など不要なんだよ」"
+
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;?07
+
+;P"「$6早く奴らを食い止めなくては・・・」"+07
+
+;P"「$6今のところ事態の進展はないが、これ以上街が破壊されるのを捨てて置く訳には行かない」"+07
+
+;P"「$6奴らは、世界的な組織だ。奴らの基地も、至る所にあるのだ。奴らの本部は、我々もまだ掴んでいない」"+07
+
+;P"「$6この街にも、既に奴らの前線基地があったとは思わなかったよ」"
+
+;C"戦う/行く/,ＷＷ/"
+C"Fight/Go/,WWWF/"
+
+;P"「$6焦ってはだめだ。サイコリングを探すのが先決だ。/$6サイコパワーなしでは、到底奴らに勝つ事はできない。"P"$6とにかく、急いでリングを探せ。街も学校も大変な事になっているからな」"
+
+;C"尋/話す/,カプ/"
+C"Ask/Talk/,Capsules/"
+
+;=3400
+
+;P"「$6君の体力を維持するためのエネルギーカプセルだ。/$6エネルギーカプセルがないと、君の体力は、急速に失われてしまう」"P"「$6君は時々これを使って、体力を回復しなくてはならないんだ」":3401
+
+;=1100
+
+;?00
+
+;P"「$6あのカプセルは、君に合せて特別に調合されているのだ」"+00
+
+;P"「$6今ここには、予備のカプセルも無いんだ。/$6もしかすると、冬眠ポッドの中ならあるかもしれないが・・・」"
+
+;P"「$6大切に使うんだぞ」"
+
+;C"話す/尋/,博士/*/"
+C"Talk/Ask/,Dr./*/"
+
+;=3100
+
+;P"「$6ブロンウイン。奴らの狙いは、明らかに君だ。気を付けて行動しろ」"P"「$6奴らは君が仲間にならないと知れば、君の抹殺を計画するだろう」"
+P"[$6Bronwyn. Those guys are obviously targeting you./Don't take any chances.]"P"[$6If they know you won't/become one of them, they may plan to obliterate/you.]"
+;?02
+
+;P"「$6もし、優介君がサイコリングを持っているなら、奴らは優介君を狙うかも知れないな」"+02
+P"[$6If Yuusuke has the Psycho Ring, those guys may/target Yuusuke.]"+02
+;P"「$6グズグズできないぞ。優介君をいち早く発見しなくては」"+02
+P"[$6You cannot dilly-dally. You must find/Yuusuke!]"+02
+;P"「$6頼むぞブロンウイン」"
+P"[$6Please, Bronwyn.]"
+;C"行く/,家/"
+C"Go/,House/"
+
+;P"優介の家へ行ってみましょう。"J20
+P"Let's go to Yuusuke's house."J20
+;C"話す/尋/,優介/"
+C"Talk/Ask/,Yuusuke/"
+
+;=0500
+
+;P"「$6優介君は学校に避難していないだろうか・・・」"+05
+P"[$6I wonder if Yuusuke's taking refuge at/school...]"+05
+;P"「$6もしかすると、優介君も君の事を探しているかも知れないな」"
+P"[$6Perhaps Yuusuke is looking for you?]"
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"街へ行ってみましょう。"J21
+P"Let's go to town."J21
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"学校へ行ってみる事にしました。"J06
+P"You try going to school."J06
+;S60
+
+;I
+
+;D24P"あっあれ？何か変ですねー。こんなハズじゃ無かったのに・・・"H
+D24P"H-Huh? Something's strange, right? It shouldn't/have been like this, though..."H

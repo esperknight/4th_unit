@@ -1,0 +1,116 @@
+
+
+;S27
+
+;I
+
+;P"逃げていたステラが突然振り返りました。"D23P"「$8ハッハッハッ^飛んで火に入る夏の虫とはこの事。ここがお前たちの墓場になるのだ！！」"K0601D42P"敵は三人、おまけにここは、敵の基地です。"
+P"Stella, who had run away, suddenly/returned."D23P"[$8Ha-ha-ha!^Like little months drawn/to the flame. This will become your/graveyard!!]"K0601D42P"There are three enemies, and/to make matters worse, this is the enemy base."
+
+;C"戦/"
+C"Battle/"
+
+;P"ついに、最期の戦いの火蓋が切って落とされました。"R96:8002:8101:8201:8301:8402:8502=1100
+P"At last, you're thrown into the final/battle!"R96:8002:8101:8201:8301:8402:8502=1100
+
+;P"あなたたちは、三人に立ち向かって行きました。"
+P"You and the others head forth to battle the three/enemies."
+
+;P"あなたは、エネルギーカプセルを飲むと、敵に立ち向かって行きました。"+11+91+91+91+91
+P"You swallow an energy capsule and go to fight against/the enemy."+11+91+91+91+91
+
+;W:9209:9317:9415K0203BK0200=9600
+
+;J25
+
+;J28
+
+;C"逃げ/"
+C"Escape/"
+
+;P"スドォ：「$8今さら逃げようとしても無駄だ」"
+P"Psudo:[$8Trying to escape at this point is/futile.]"
+
+;C"行く/"
+C"Go/"
+
+;P"どこへ行くんです？"
+P"Go to where?"
+
+;C"助け/"
+C"Help/"
+
+;P"人より今の事を考えましょう。"
+P"Let's think about the current situation rather than/other people."
+;T
+;P"最期の決戦です。戦うしかありません。"
+P"This is the final decisive battle. There is no/option but to fight!"
+;S28
+;I
+;D26P"「$7こっ^これで勝ったと思うな^・^・^・^^　見ろ！」/指差す方向に何かの装置が見えました。"P"ステラは機械に近寄ると、そのスイッチを押しました。"P"「$7今のがどういう事かわかるか・・^・^ 自爆装置を作動させたのさ・・^お前たちも、ここで死ぬんだ・^・^・^」"K0601P"そう言うと、ステラは息絶えました。"P"基地の入口が不気味な音を立てて閉じて行きました。"WD22
+D26P"[$7^D^Don't think you've won just yet.../Behold!] You see some equipment in the direction/she's pointing."P"Stella approaches the machine and/flips the switch."P"[$7Right now, you should have an/idea what kind of thing this is... I've activated the/self-destruction equipment! You and the others will/die here...!,]"K0601P" said Stella before she/breathed her last."P"The base entrance seals with a/decisive sound."WD22
+;N
+;L"アッシュ"174147237254L"セス"258195323311L"基地"128120383343L"自爆装置"325221382341
+L"Ash"174147237254L"Seth"258195323311L"Base"128120383343L"Self-Destruction Equipment"325221382341
+
+;C"逃げ/行く/"
+C"Escape/Go/"
+
+;P"入ってきた大きな扉以外、どこにも出口が見つかりません。"
+P"You can't find an exit other than the big door you/entered through."
+;C"見る/,装置/"
+C"Look/,Equipment/"
+
+;P"タイマーが、刻々と時を刻んでいます。"
+P"The timer is ticking, moment by moment."
+;C"調べ/,装置/"
+C"Examine/,Equipment/"
+
+;?03
+;P"どこにも破壊ではそうな場所は見当りません。"+03
+P"You cannot find any place that is destructible."+03
+;P"装置は、頑丈な装甲で覆われています。"+03
+P"The equipment is covered with solid armoring."+03
+;P"ハッチみたいな物がありましたが、蓋を開けられそうにありません。"+03
+P"There is something that looks like a hatch, but the/cover doesn't appear able to be opened."+03
+;P"これ以上調べても、無駄です。/他に脱出する方法を考えるべきです。"
+P"It's no use examining it further. We should think/of other ways to escape."
+;C"話す/,アッシ/セス/"
+C"Talk/,Ash/Seth/"
+
+;=0200
+;P"「$8希望を捨てちゃダメ！」"+02
+P"[$8Don't give up hope!]"+02
+;P"「$9サイコパワーで扉が破れれば・・・」"
+P"[$9If you destroy the door with Psycho-Power...]"
+;C"尋/,サイコ/"
+C"Ask/,Psycho/"
+
+;P"「$9大丈夫、使えるわよ」"
+P"[$9It's alright. You can use it!]"
+;C"使う/,サイコ/"
+C"Use/,Psycho/"
+
+;=0400
+;P"あなたの体がまぶしく輝き、腕の先から強烈な光の球が、扉に向かって放たれました。"K0401P"しかし、扉はへこんだだけでした。サイコパワーだけでは威力が足りなかったようです。"+04
+P"Your body shines dazzlingly, and a powerful ball of/light shoots toward the door."K0401P"However, the/door was only dented. It seems that the force of your/Psycho-Power alone is not enough."+04
+;K0401P"やはり、パワーが足りません。/扉は少しねじれましたが、開く迄には至らなかった様です。"P"時間は刻々と過ぎて行きます。"
+K0401P"The power is not enough after all. The door/warped slightly, but it doesn't look like it's going/to be enough to open it."P"Time is quickly running/out."
+;C"見る/調べ/,基地/"
+C"Look/Examine/,Base/"
+
+;P"どこにも脱出する場所がありません。"
+P"There is no place to escape to."
+;C"使う/,ガン/"
+C"Use/,Air-Gun/"
+
+;=0400
+;P"そんな物で扉は破れませんよ。"
+P"You can't destroy a door with something like that!"
+;P"あなたは引金を引くと同時にサイコパワーを全開にしました。"P"強力なエネルギーが弾丸と共に扉に向かって発射されました。"K0401P"扉は吹飛び、あなたたちは急いで脱出しました。"P"基地を脱出したとたん^・^・^・"D27K0401J26
+P"You pull the trigger, and at the same time, go full/throttle with your Psycho Power."P"Powerful energy is/fired at the door in conjunction with the/bullet."K0401P"The door is blown away, and you and/the others get away quickly."P"However, The moment/that you escape the base..."D27K0401J26
+;U
+;=0108
+;K0401D27K0401P"自爆装置が爆発し、あなたたちは基地もろとも吹っ飛んでしまいました。"WD24P"せっかくここまで来たのに、残念でした。セーブはしていましたか？もう一度挑戦してください！"A"ＧＡＭＥ　ＯＶＥＲ"K0301H
+K0401D27K0401P"The self-destruct device detonates. /You and the others are blown away along with the/base."WD24P"It's too bad, after finally coming this/far. Did you save? Please try again!"A"GAME/OVER"K0301H
+;+01

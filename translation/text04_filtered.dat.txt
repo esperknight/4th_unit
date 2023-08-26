@@ -1,0 +1,395 @@
+
+
+
+
+;S15
+
+;I
+
+;D12P"街の中は、大混乱を起こしています。/あっ！^あんな所に山田記者がいますよ。^"P"あなたを見つけた山田記者が、こっちへやって来ました。"
+D12P"The center of town is in chaos. Ah-!^Yamada is/over there.^"P"The recently discovered Yamada comes/over to you."
+;N
+
+;L"山田記者"210150293317L"街"128120383343L"学校"031291052317
+L"Yamada"210150293317L"Town"128120383343L"School"031291052317
+
+;C"話す/,山田/"
+C"Talk/,Yamada/"
+
+;?00
+
+;P"「$7やぁ君か。こんな所でうろうろしてちゃ、危ないよ」"+00
+P"[$7Oh, it's you. It's dangerous to hang around/here.]"+00
+;P"「$7組織の奴らが、いきなり戦争を起こしやがった」"+00
+P"[$7Those Organization guys caused a war all of a/sudden.]"+00
+;P"「$7ここに居ちゃ危ない。学校に避難するんだ」"
+P"[$7It's not safe here. I'm taking cover in the/school.]"
+;C"尋ね/話す/,統合/"
+C"Ask/Talk/,Joint Forces/"
+
+;P"「$7いや、オレも国際的な軍事組織としか、知らないんだ」"
+P"[$7It's an international military affairs/organization. That's all I know.]"
+;C"尋ね/,組織/"
+C"Ask/,Organization/"
+
+;P"「$7統合軍と戦っている組織か？オレも奴らについちゃ、何も知らないのと同じさ」"=2300
+P"[$7Joint Forces and the Organization fighting? Just/like before, I don't know anything more about/it.]"=2300
+;+23M10
+
+;C"尋ね/,*/山田/ブロン/"
+C"Ask/,*/Yamada/Bronwyn/"
+
+;?59
+
+;P"「$7ブロンウィンてのは、新型都市破壊兵器のコードネームらしい」"+59
+P"[$7It appears Bronwyn is the code name of a new/style urban combat weapon.]"+59
+;P"「$7それが今、行方不明になってるんだ。そこで、統合軍も組織の奴らも血眼になって捜索してるらしい」"+59=2300
+P"[$7Now it's gone missing. So, it looks like the/Joint Forces and those Organization guys are both/searching frantically for it.]"+59=2300
+;+23M10
+
+;P"「$7航空機撃墜事故は、その事に何か深く関係があるらしいんだが・・・」"+59
+P"[$7It looks like the incident with the shot-down aircraft/is closely related somehow.]"+59
+;P"「$7オレが調べたのはここまでなんだ」"+59
+P"[$7That's as far as my investigation has lead.]"+59
+;P"「$7知ってる事は全部話したぜ」"
+P"[$7I've told you everything I know.]"
+;C"助け/,山田/"
+C"Help/,Yamada/"
+
+;P"「$7君の気持ちはありがたいが、今はオレ自身さえどうしたらいいか、わからないんだ」"
+P"[$7Thank you for your concern, but right now even I/don't know what the best thing to do is.]"
+;C"尋ね/話す/,ＷＷ/"
+C"Ask/Talk/,WWWF/"
+
+;P"「$7それが、あの組織の名前なのか！」"
+P"[$7That's the organization's name?!]"
+;C"尋ね/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$7いや、会ってないよ。学校にいないのかい？」"
+P"[$7No, haven't seen him. He's not at school?]"
+;C"話す/,優介/"
+C"Talk/,Yuusuke/"
+
+;P"ここには居ませんねぇ。"
+P"They aren't here, right?"
+;C"尋ね/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$7いや、新しい事は、まだ分ってないんだ」"
+P"[$7Well, I don't have any new info yet.]"
+;C"尋ね/,カプ/"
+C"Ask/,Capsules/"
+
+;P"「$7何だか分らないな」"
+P"[$7I don't really know.]"
+;C"見る/,山田/"
+C"Look/,Yamada/"
+
+;P"「$7オレの顔に何か付いているか？」"
+P"[$7Is there something on my face?]"
+;C"見る/調べ/,統合/"
+C"Look/Examine/,Joint Forces/"
+
+;P"ここからでは、良くわかりません。"
+P"I don't really know what will happen from here."
+;C"調べ/,組織/ＷＷ/"
+C"Examine/,Organization/WWWF/"
+
+;P"いったいどこから調べたらいいんでしょう。"
+P"Just exactly where should I investigate from?"
+;C"調べ/,街/統合/"
+C"Examine/,Town/Joint Forces/"
+
+;P"山田記者の止めるのも聞かず、戦闘の起こっている方へ向かいました。"J16
+P"Without a chance to ask Yamada to stop, he heads in/the direction of the occurring battle.(???)"J16
+;C"行く/,学校/"
+C"Go/,School/"
+
+;=5900
+
+;P"「$7ちょっと待てよ。実は、ブロンウィンに関する情報を手に入れたんだ」"
+P"[$7Wait a sec. Actually, I acquired information/related to Bronwyn.]"
+;P"ひとまず学校へ行きましょう。"J06
+P"Let's go to school for now."J06
+;C"行く/,*/統合/"
+C"Go/,*/Joint Forces/"
+
+;=5900
+
+;P"「$7ちょっと待てよ。実は、ブロンウインに関する情報を手に入れたんだ」"
+P"[$7Wait a sec. Actually, I acquired information/relating to Bronwyn.]"
+;P"山田記者が止めるのを振り切って、戦闘の起こっている方へ行きました。"J16
+P"Yamada broke free and went in the direction the/battle is occurring.(???)"J16
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"ここが、街ですよ。それに、ここから先は行けそうにありません。"
+P"This is the town. However, it appears you can go no/further."
+;S16
+
+;I
+
+;D13:2801P"軍の隊員がいました。市民を安全な場所へ、避難さようとしています。"
+D13:2801P"There are military personnel. They're/evacuating citizens to a safe place."
+;N
+
+;L"隊員"249159340311L"街"129121382342L"学校"031291052317L"森"012312047332
+L"Members"249159340311L"Town"129121382342L"School"031291052317L"Forest"012312047332
+
+;C"見る/,隊員/"
+C"Look/,Members/"
+
+;P"見るからに、たのもしそうな隊員です。"
+P"They are discernibly reliable looking troops."
+;C"話す/,隊員/"
+C"Talk/,Members/"
+
+;P"「$5ここは、危険だ。早く逃げなさい」"
+P"[$5It's not safe here. Hurry someplace else.]"
+;C"尋ね/,隊員/"
+C"Ask/,Members/"
+
+;=0500
+
+;P"「$5奴らが攻撃を始めたんだ。早く逃げなさい」"
+P"[$5Those guys started the attack. Hurry and get out/of here.]"
+;P"「$5貴様、何か知っているのか？！」"+00
+P"[$5Do you know something?! ]"+00
+;C"尋ね/,組織/ＷＷ/"
+C"Ask/,Organization/WWWF/"
+
+;=0500
+
+;?00
+
+;P"「$5奴らは、市民まで巻き添えにしやがって」"
+P"[$5Those guys, didn't have to go as far as getting/normal citizens involved.]"
+;P"「クソ！！　あんな化け物相手じゃ、勝負にならん」"
+P"[Dammit!! We won't be defeated by such monstrous/opponents.]"
+;P"「$5なんとか市民だけでも、避難させなくては・・・/$5街中では、こっちが手出しできないと思ってなめてやがる」"
+P"[???]"
+;P"「$5まだいたのか。早く避難するんだ」"
+P"[$5You're still here. Hurry up and take cover!]"
+;P"「$5貴様、何か知っているのか！？」"+00
+P"[$5Do you know something!? ]"+00
+;C"尋ね/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$5一般人は、皆学校に向かっている。学校にいるんじゃないか」"
+P"[$5All the regular folks are headed to school./Shouldn't he be there?]"
+;C"尋ね/,統合/"
+C"Ask/,Joint Forces/"
+
+;=0500
+
+;P"「$5我々は、日夜人々の安全を守るべく戦っているのです」"
+P"[$5We fight to protect the safety of the people,/day and night.]"
+;P"「$5貴様、何か知っているのか！？」"+00
+P"[$5Do you know something!? ]"+00
+;C"尋ね/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;P"「$5何でお前がそんな事を知っているんだ。それは、重要機密のはずだぞ！」"+05
+P"[$5How do you know something like that? That's/supposed to be confidential!]"+05
+;C"助け/,統合/"
+C"Help/,Joint Forces/"
+
+;P"「$5何言ってるんだ。ケガしないうちに、早く避難するんだ」"
+P"[$5What am I saying? I'm going to hurry and take/shelter before I get hurt.]"
+;C"見る/,統合/"
+C"Look/,Joint Forces/"
+
+;P"彼らが何と戦っているのか、良くわかりません。/煙の向こうに小さな影が動くのが見えただけです。"
+P"You don't really know what they are fighting. It/looked like a small shadow moved in the smoke on the/other side."
+;C"見る/,街/"
+C"Look/,Town/"
+
+;?01
+
+;P"戦車が、時折発砲していますが、相手が何だかわかりません。"+01+00
+P"A tank fires now and then but you don't really know/what at."+01+00
+;P"煙の向こうで小さな影が動くのが見えたようです。"+01+00
+P"It seems like a small shadow moves on the other/side of the smoke."+01+00
+;P"発砲している相手は、人？^いいえ、そんなはずありませんよね。"
+P"Is it firing on a person?^No, that can't be."
+;C"逃げ/"
+C"Escape/"
+
+;P"避難するため、あなたは学校へ行く事にしました。"J06
+P"You head to school to take refuge."J06
+;C"戦う/,隊員/"
+C"Fight/,Members/"
+
+;P"「$5こらこら！何するんだ」"
+P"[$5Hey now! What are you doing?]"
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"学校へ、行きましょう。"J06
+P"Let's go to school."J06
+;C"行く/,森/"
+C"Go/,Forest/"
+
+;P"あなたは、森へ向かいました。"J10
+P"You head to the forest."J10
+;T
+
+;=0008
+
+;P"あなたは、逃げ惑う人に押されるようにして学校へ行きました。"J06
+P"You head  to school, swept up in the crowd of/people running around trying to escape."J06
+;P"街は、大混乱です・・・^どうしましょう。"
+P"The town is chaos...^What should we do?"
+;S17
+
+;I
+
+;D14P"アッシュと一緒に学校に行くと、アッシュとよく似た女の子と男の人がいました。"P"女の子：「$8私はセス、こっちは、越中博士。アッシュも私たちも、統合軍のエージェントなの」"
+D14P"When you go to school along with Ash, there are/other girls and guys there who look similar to/her."P"Girl:[$8I'm Seth, and this is Dr. Etchu. We're also/Joint Forces agents just like Ash.]"
+;N
+
+;L"アッシュ"183174234284L"セス"347147383263L"越中博士"266172313250=0000
+L"Ash"183174234284L"Seth"347147383263L"Dr. Etchu"266172313250=0000
+
+;L"研究所"091291097302
+L"Lab"091291097302
+
+;C"見る/,アッシ/セス/"
+C"Look/,Ash/Seth/"
+
+;P"二人、兄弟のように似ています。"
+P"The two of them look like siblings."
+;C"見る/,博士/"
+C"Look/,Dr./"
+
+;P"まだ若い男性です。/見た事があると思ったら、喫茶店で近付いて来た人です。"
+P"He's still a young man. I thought I'd seen him/before. He approached me in the coffee shop."
+;C"尋/,新聞/"
+C"Ask/,Newspaper/"
+
+;=0000
+
+;P"越中：「$6この航空機には、君が乗っていたんだよ。詳しい話は、研究所に着いてからしてあげよう」"+00
+P"Etchu:[$6You rode on this aircraft. I'll tell you/the full story after we arrive at the research/facility.]"+00
+;P"越中：「$6研究所で、詳しく話してあげよう」"
+P"Etchu:[$6I'll fill in the details at the research/facility.]"
+;C"尋ね/,研究/"
+C"Ask/,Lab/"
+
+;P"越中：「$6私たちの基地になっているんだ」"
+P"Etchu:[$6This has become our base.]"
+;C"優介/,尋/話す/"
+C"Yuusuke/,Ask/Talk/"
+
+;=0800
+
+;P"越中：「$6誰だいそれは」"+08
+P"Etchu:[$6Who's that?]"+08
+;P"越中：「$6もし、優介君を奴らが先に見つけたら・・・/彼の身が心配だな」"
+P"Etchu:[$6If those guys found Yuusuke first... I'd/be worried about him.]"
+;C"話す/,越中/"
+C"Talk/,Etchu/"
+
+;?05
+
+;P"越中：「$6君にはこの二人と同じく、戦士としての特殊能力があるのだ。しかし、その分他の人と体質が違っているのだ」"+05
+P"Etchu:[$6Just like these two, you have special abilities as a/soldier. However, in exchange your genetic make-up is/different than other people.]"+05
+;P"越中：「$6渡したカプセルを持っているかい。あのカプセルが無いと君は行動できなくなるんだ」"+05
+P"Etchu:[$6Do you have the capsules I gave you?/Without those, you'll become unable to move.]"+05
+;P"越中：「$6詳しい話しは、ここではだめだ。私の研究所で話すよ」":0001
+P"Etchu:[$6This isn't the place to go into details./We'll talk at my lab.]":0001
+;C"尋/,越中/"
+C"Ask/,Etchu/"
+
+;P"越中：「$6詳しい話しは、研究所に行ってからだ」":0001
+P"Etchu:[$6I'll tell you the full story when we go to/the lab.]":0001
+;C"尋/,カプ/"
+C"Ask/,Capsules/"
+
+;=1110
+
+;P"越中：「$6カプセルが無いのか。困ったな、ここには今予備もないんだ」"
+P"Etchu:[$6You don't have the capsules? What should/we do? There aren't any spares here right now.]"
+;=3400
+
+;P"セス：「$8あなたの体力を維持するためのエネルギーカプセルよ」"+34
+P"Seth:[$8They're energy capsules for maintaining/your physical strength.]"+34
+;P"越中：「$6なんだって！ＷＷＷＦの奴らと戦ったのか。じゃあ、さっそくカプセルを使って体力を回復させておきなさい。"P"$6しかし、いきなり戦うなんて、もうそんな、無茶をしちゃダメだよ」"
+P"Etchu:[$6What did you say?! You fought those WWWF/guys? Then use a capsule immediately to recover your/physical strength."P"$6However, you shouldn't rush so abruptly/to fight like that.]"
+;C"尋/,統合/"
+C"Ask/,Joint Forces/"
+
+;P"越中：「$6統合軍は、ＷＷＷＦに対抗するために結成された国際的な組織なんだ」"=2400
+P"Etchu:[$6The Joint Forces is an international/organization formed to oppose the WWWF.]"=2400
+;R39+24M08
+
+;C"尋/,ＷＷ/"
+C"Ask/,WWWF/"
+
+;=0400
+
+;P"越中：「$6奴らは死の商人だった。そして、いつの間にかその勢力を延していた」"+04
+P"Etchu:[$6Those guys were merchants of death. And/before you knew it, they extended their/influence.]"+04
+;P"越中：「$6奴らは世界征服を企んでいる。恐ろしい集団だ」"
+P"Etchu:[$6They're planning world conquest! It's a/terrible group.]"
+;C"尋/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;=2500
+
+;P"越中：「$6それは君の名前だよ。君がブロンウィンだ」"M13:2501
+P"Etchu:[$6That's your name. You're/Bronwyn.]"M13:2501
+;P"越中：「$6君にその名前を付けたのは私なんだが、いつの間にかそれが今度の作戦のコードネームになってしまったんだ」"P"アッシュ：「$9あなたがブロンウィンだと知ってたら、こんな事にならなかったんだけど。ごめんなさいね」"
+P"Etchu:[$6I'm the one who gave you that name, but/before I knew it, it had become the operation code/name."P"Ash:[$9If only I'd known you were Bronwyn, it/wouldn't have turned out like this. I'm sorry.]"
+;C"話す/尋/,アッシ/"
+C"Talk/Ask/,Ash/"
+
+;=2601
+
+;P"「$9さっきはごめんなさい。あなたをＷＷＷＦの手先と勘違いしたの」"=2400
+P"[$9I'm sorry about earlier. I mistook you for a/minion of WWWF.]"=2400
+;R39+24M08
+
+;?01
+
+;P"「$9私たち、あなたの事を詳しく知らなかったから、探すのに苦労したわ」"+01
+P"[$9It was hard searching for you, since we didn't/know about you in detail.]"+01
+;P"「$9奴らと戦うため統合軍に協力してね」"+01
+P"[$9You'll help us to fight those guys, right?]"+01
+;P"「$9越中博士を信じて。さぁ研究所に行きましょう」":0001
+P"[$9Have faith in Dr. Etchu. Let's go to the/lab.]":0001
+;C"話す/尋/,セス/"
+C"Talk/Ask/,Seth/"
+
+;=0007
+
+;P"「$8奴らは、今もあなたを狙っているはずよ」"+07
+P"[$8Those guys should be targeting you right now as/well.]"+07
+;P"「$8越中博士の研究所に急ぎましょう」"
+P"[$8Let's hurry to Dr. Etchu.]"
+;C"助け/,アッシ/セス/越中/統合/"
+C"Help/,Ash/Seth/Etchu/Joint Forces/"
+
+;P"「$6ありがとう。さっそく研究所へ急ごう」":0001
+P"[$6Thank you. Let's hurry to the lab right away.]":0001
+;C"戦う/,ＷＷ/"
+C"Fight/,WWWF/"
+
+;P"「$6ありがとう。協力してくれるんだね」"
+P"[$6Thank you. You'll help us, right?]"
+;C"戦う/,統合/"
+C"Fight/,Joint Forces/"
+
+;P"「$6ありがとう。統合軍とともに戦ってくれるんだね」"
+P"[$6Thank you. You'll fight alongside the Joint/Forces, right?]"
+;C"助け/,ＷＷ/"
+C"Help/,WWWF/"
+
+;P"「$6ははは、悪い冗談だ」"
+P"[$6Ha-ha-ha, that's a bad joke.]"
+;C"行く/,研究/*/"
+C"Go/,Lab/*/"
+
+;P"越中：「$6さっそく研究所に行こう」"+52J18
+P"Etchu:[$6Let's go to the lab immediately.]"+52J18

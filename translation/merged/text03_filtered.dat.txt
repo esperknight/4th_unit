@@ -1,0 +1,231 @@
+
+
+
+
+;S12
+
+;I
+
+;D01=1300
+
+;M64
+
+;P"優介の家の中に、入りました。/さて、どうしましょうか。"
+P"You enter Yuusuke's house.  Well what should we/do?"
+;N
+
+;L"ラジカセ"187244235292L"テレビ"205120252164=5400
+L"Radio-Cassette Player"187244235292L"Television"205120252164=5400
+
+;L"手紙"370193383215
+L"Letter"370193383215
+
+;=1300
+
+;L"新聞"256224321296
+L"Newspaper"256224321296
+
+;L"部屋"128120383343L"机"346180383280L"街"036142069196L"学校"031291052317L"森"012312047332
+L"Room"128120383343L"Desk"346180383280L"Town"036142069196L"School"031291052317L"Forest"012312047332
+
+;C"見る/,テレ/"
+C"Look/,Television/"
+
+;P"テレビは、なぜか何も写していません。"
+P"There's nothing on the TV for some reason."
+;C"見る/調べ/,新聞/"
+C"Look/Examine/,Newspaper/"
+
+;P"古新聞です。/「謎の航空機撃墜」の記事が・・・^"
+P"It's an old newspaper. The article reads:/[Mysterious Aircraft Shot Down]...^"
+;C"見る/調べ/,ラジカ/"
+C"Look/Examine/,Radio-Cassette/"
+
+;P"ごく普通のステレオ型です。"
+P"It's a common model of stereo."
+;C"使う/,ラジカ/"
+C"Use/,Radio-Cassette/"
+
+;?15
+
+;P"ラジオをつけました。/「$5・・・市街で突如発生した紛争は、次第に激しさを増し・・・」"+15
+P"You turn on the radio. [$5...The conflict that/broke out in the streets is steadily growing in/intensity... ]"+15
+;P"「$5政府は、以前・・^・いの^・ん・・をつかんでおらず、付近の住民は・・をつのらせています」"+15
+P"[$5Government previously...-..-...could not/capture, neighborhood residents becoming/frustrated]"+15
+;P"「$5・・^は、依然この戦・・に^　しておらず、出動要請も出され・・との^・^・です」"+15
+P"[$5...^to participate in this fight...^a request is/going out against...-...it is."+15
+;P"「$5政府のこの・・に対し、野党は、・・を強く^・・している模様です^・^・」"+15
+P"[$5The government...parties opposing/this...strongly^...there is a pattern^...]"+15
+;P"ラジオは突然、何も言わなくなりました。"+15
+P"The radio abruptly goes silent."+15
+;P"ラジオは、何も放送していません。"
+P"Nothing is being broadcast on the radio."
+;C"見る/,机/"
+C"Look/,Desk/"
+
+;P"普通のスチール机です。"=5400
+P"It's an ordinary steel desk."=5400
+;P"おや？　何か上にあります。"
+P"Oh!? There is something on top."
+;P"これといって、変ったとこはありませんが。"
+P"There is nothing unusual."
+;C"見る/,部屋/"
+C"Look/,Room/"
+
+;P"さすがに男の子の部屋、ちらかり放題です。"
+P"A boy's room is hopelessly cluttered, as you can/imagine."
+;C"調べ/,机/"
+C"Examine/,Desk/"
+
+;=5400
+
+;K0502P"机の上に、置き手紙がありました。"+54
+K0502P"There's a note on top of the desk."+54
+;P"もう、目ぼしい物はありません。"
+P"There is nothing else of interest."
+;C"見る/調べ/,手紙/"
+C"Look/Examine/,Letter/"
+
+;P"優介の書いた物の様です。"P"「君に渡しそこねた物がある。オレは、学校に居るから取りに来てくれ。/優介」"=5401
+P"It looks like Yuusuke wrote it."P"[There's/something I meant to give you. I'm at school if you/want to come and get it. - Yuusuke]"=5401
+;+54
+
+;C"取る/,手紙/"
+C"Take/,Letter/"
+
+;=5402
+
+;P"読んでしまえば、持って行っても仕方ない物ですよ。"
+P"If you read it, you don't need to take it."
+;P"手に持たなくても、読めますよ。"
+P"You can read it without picking it up."
+;C"調べ/,部屋/"
+C"Examine/,Room/"
+
+;P"特に、何も見つかりませんが・・・^しかし、汚い部屋です。"
+P"You don't find anything in particular...^ However,/it's a dirty room."
+;C"取る/,新聞/"
+C"Take/,Newspaper/"
+
+;=1300
+
+;P"古新聞でも役に立つのかなぁ。"+13M64M04
+P"It's an old newspaper, but it could come in/handy."+13M64M04
+;P"もう、持っています。"
+P"You already have it."
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"学校へ行く事にしましょう。"J06
+P"Let's go to school."J06
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"街に行ってみる事にしました。"J15
+P"You try going to town."J15
+;C"行く/,森/"
+C"Go/,Forest/"
+
+;P"森へ行ってみますか。"=1700
+P"Shall we try going to the forest?"=1700
+;J10
+
+;J14
+
+;C"調べ/,テレビ/"
+C"Examine/,Television/"
+
+;P"どこにでもある普通のテレビです。"
+P"It's an ordinary television."
+;C"尋ね/"
+C"Ask/"
+
+;P"誰にたずねるんです？"
+P"Ask whom?"
+;S13
+
+;I
+
+;D21P"アッシュは、あなたを飛び越して逃げていきました。/「今、遊んでいる暇は無いの。今日の所は、勝負を預けておくわ」"P"あなたは一人、森に取り残されました。"+26WD11
+D21P"Ash jumps over you and runs away. [I don't have/time to play right now. Today's match goes to/you.]"P"You're left alone in the forest."+26WD11
+;N
+
+;L"森"128120383343L"優介の家"106197114209L"学校"031291097302L"街"036142069196
+L"Forest"128120383343L"Yuusuke's House"106197114209L"School"031291097302L"Town"036142069196
+
+;C"追う/,*/"
+C"Chase/,*/"
+
+;P"あなたはアッシュを追いかけましたが、学校の近くまで来た時、見失ってしまいました。"J06
+P"You caught up to Ash, but you lost her as you approached/the school."J06
+;C"調べ/見る/,森/"
+C"Examine/Look/,Forest/"
+
+;P"森の中を見渡しても、もう何も無いですよ。"
+P"You look around in the forest, but there's no sign/of her."
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"仕方ありません。学校へ行ってみましょう。"J06
+P"There's nothing that can be done. Let's go to/school."J06
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"街へ行ってみましょうか。"J15
+P"Shall we go to town?"J15
+;C"行く/,家/"
+C"Go/,House/"
+
+;P"仕方ないですね。優介の家に戻ってみますか。"J12
+P"What can you do, right? I guess I'll go back to/Yuusuke's house."J12
+;C"尋ね/"
+C"Ask/"
+
+;P"誰もいません・・・"
+P"No one is there..."
+;S14
+
+;I
+
+;D11P"森の中です。さて、これからどうしましょうか。"
+D11P"It's the forest interior. Well, now what should/we do?"
+;N
+
+;L"森"129121382342L"学校"031291052317L"街"036142069196
+L"Forest"129121382342L"School"031291052317L"Town"036142069196
+
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"一度、学校へ行ってみましょう。"J06
+P"Let's go to school."J06
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"街で、何が起こっているのか、行ってみましょう。"=5203
+P"You wonder what's going on in town. Let's go."=5203
+;J15
+
+;J07
+
+;C"見る/,森/"
+C"Look/,Forest/"
+
+;P"森は、異様な程静かです。"
+P"The forest is strangely quiet."
+;C"調べ/,森/"
+C"Examine/,Forest/"
+
+;?00
+
+;P"あなたがここで倒れていたのは、間違い無いのですが。"+00
+P"There's no mistake, this is where you/collapsed."+00
+;P"誰かに、見つめられている様な気がします。"+00
+P"You feel as if someone is watching you."+00
+;P"何も見つからないみたいですが・・・^"
+P"It seems you can't find anything...^"
+;C"尋ね/"
+C"Ask/"
+
+;P"誰もいません。"
+P"No one is there."

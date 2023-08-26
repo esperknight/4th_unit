@@ -1,0 +1,410 @@
+
+
+
+;S07
+
+;I
+
+;D07K0402P"街の中に来ました。/何て事でしょう！/軍隊が戦っているみたいです。"
+D07K0402P"You arrive in the center of town. What on /earth?! It looks like the Army is fighting!"
+
+;N
+
+;L"山田記者"347025380066L"軍隊"198212363286L"森"012312047332L"学校"031291052317L"街"129121382342
+L"Yamada"347025380066L"Troops"198212363286L"Forest"012312047332L"School"031291052317L"Town"129121382342
+
+;C"追う/見る/調べ/,山田/"
+C"Chase/Look/Examine/,Yamada/"
+
+;P"どこへ行ったんでしょう。見失ったようです。"
+P"Looks like he took off somewhere. I seem to have/lost him."
+
+;C"見る/,軍隊/"
+C"Look/,Troops/"
+
+;P"いったい何と戦っているのでしょう。/軍隊は、戦車まで繰り出しています。"
+P"Just what the heck are they fighting against? The/Army's sending tanks out."
+
+;C"軍/,調べ/"
+C"Troops/,Examine/"
+
+;P"どこの軍隊でしょう。自衛隊ではなさそうです。"
+P"This is the Army, right? It's unlikely it's the/Self Defense Force..."
+
+;C"戦う/,軍/"
+C"Fight/,Troops/"
+
+;P"大胆な挑戦ですが、今はやめた方がいいようです。"
+P"A heroic challenge, but it seems like it's better/to stay back for now."
+
+;C"助け/,軍/"
+C"Help/,Troops/"
+
+;P"戦ってる相手も分らないのにですか？^ちょっと無理なんじゃないですか。"
+P"Even though you don't know the opponent you're/fighting?^Isn't that going a little too far?"
+
+;C"見る/,街/"
+C"Look/,Town/"
+
+;P"街は、大混乱を起こしています。"
+P"The town's in a state of chaos."
+
+;C"行く/逃げ/,森/"
+C"Go/Escape/,Forest/"
+
+;P"森を調べに行く事にしました。"J14
+P"You go to check the forest."J14
+
+;C"行く/逃げ/,学校/"
+C"Go/Escape/,School/"
+
+;=1701
+
+;P"謎の男に言われた通り、学校に行って見る事にしました。"J06
+P"You head to school like the mysterious man/suggested."J06
+
+;=1801
+
+;P"女の人に言われた通り、学校に行って見る事にしました。"J06
+P"You head to school like the woman suggested."J06
+
+;J06
+
+;C"調べ/"
+C"Examine/"
+
+;P"街の中は、大混乱です。何も調べられません。"
+P"The middle of town is in chaos. You can't examine anything."
+
+;C"尋ね/話す/"
+C"Ask/Talk/"
+
+;P"街はパニック状態で、誰もあなたの話を聞いてくれそうにありません。"
+P"With the current state of panic in town, there's no/one who'll listen to you."
+
+;C"助け/"
+C"Help/"
+
+;P"えっ？^誰を助けるんですって？"
+P"Huh? ^Who are you saying you'll help?"
+
+;C"優介/"
+C"Yuusuke/"
+
+;P"ここには、いないみたいです。"
+P"It doesn't look like he's around."
+
+;S08
+
+;I
+
+;D08:1701
+
+;N
+
+;L"学校"031291052317L"街"036142069196L"優介の家"106197114209=2700
+L"School"031291052317L"Town"036142069196L"Yuusuke's House"106197114209=2700
+
+;L"機械"227179338296
+L"Machine"227179338296
+
+;L"冬眠ポッド"227179338296
+L"Hibernation Pod"227179338296
+
+;L"森"129121382342
+L"Forest"129121382342
+
+;C"見る/,機械/"
+C"Look/,Machine/"
+
+;=0400
+
+;P"人が入れるくらい大きな物です。/扉が付いていて開いています。"+04
+P"It's large enough for a person to fit inside. It/has an open door."+04
+
+;P"あなたは、この機械に見覚えがあるのですが、それが何か思いだせません。"
+P"This machine looks familiar to you, but you can't/remember why."
+
+;C"見る/調べ/,ポッド/"
+C"Look/Examine/,Pod/"
+
+;P"ポッドの中は、わからない装置がギッシリ詰っています。"
+P"Incomprehensible gadgetry is packed tightly inside/the pod."
+
+;C"見る/,森/"
+C"Look/,Forest/"
+
+;=5600
+
+;P"さっきから誰かに見られているような・・・"
+P"For a while now, it's felt like you're being/watched..."
+
+;P"何か異様な静けさが・・・"
+P"It's strangely quiet."
+
+;C"調べ/,機械/"
+C"Examine/,Machine/"
+
+;=0200
+
+;P"機械の中は、ベッドの様になっています。"+02
+P"There's what appears like a bed inside the/machine."+02
+
+;K0602P"不意に、「冬眠ポッド」と言う言葉を思いだしました。":2701
+K0602P"Suddenly, you remember the word [hibernation/pod].":2701
+
+;C"調べ/,森/"
+C"Examine/,Forest/"
+
+;P"他には、これと言った物は無いようです。"
+P"There appears to be nothing else to speak of."
+
+;C"行く/,学校/"
+C"Go/,School/"
+
+;=5600
+
+;P"とりあえず行ってみましょうか。"J09
+P"For now let's go."J09
+
+;P"学校へ戻りましょう。"J06
+P"Let's return to school."J06
+
+;C"行く/,家/"
+C"Go/,House/"
+
+;=5600
+
+;P"とりあえず行ってみましょうか。"J09
+P"For now let's go."J09
+
+;P"優介の家に向かいました。"J12
+P"You head to Yuusuke's house."J12
+
+;C"行く/,街/"
+C"Go/,Town/"
+
+;=5600
+
+;P"とりあえず行ってみましょうか。"J09
+P"For now let's go."J09
+
+;P"街に行ってみますか。"J15
+P"I guess I'll try going to town."J15
+
+;C"尋ね/"
+C"Ask/"
+
+;P"たずねるような人は、いませんね。"
+P"There doesn't seem be anyone to ask."
+
+;S09
+
+;I
+
+;D09+56P"あなたが立ち去ろうとしたその時、突然一人の少女が、姿を現しました。"K0601P"良く見ると、少女は学校で会った、アッシュでした。"
+D09+56P"A girl suddenly appears when you go to leave./"K0601P"On closer inspection, it's Ash, who you met at/school."
+
+;N
+
+;L"アッシュ"298175368339L"学校"031291052317L"優介の家"106197114209
+L"Ash"298175368339L"School"031291052317L"Yuusuke's House"106197114209
+
+;C"尋ね/,アッシ/"
+C"Ask/,Ash/"
+
+;P"「$9あなた、どこかで見かけた顔ね。何か嗅ぎ回っている様だけど、ケガしないうちに手を引きなさい」"+00
+P"[$9I've seen you somewhere before, haven't I? If/you're snooping around, you'd better get out of here/before you get hurt.]"+00
+
+;C"尋ね/,新聞/"
+C"Ask/,Newspaper/"
+
+;P"「$9これは、あの事件の新聞記事ね」"+00
+P"[$9This is the newspaper story about that/incident.]"+00
+
+;C"戦う/,アッシ/*/"
+C"Fight/,Ash/*/"
+
+;J13
+
+;C"話す/,アッシ/*/"
+C"Talk/,Ash/*/"
+
+;P"「$9あなたに話す事などないわ。とにかく、余り深入りしないで。ケガをさせたくないから」"+00
+P"[$9I don't have anything to say to you. Anyhow,/don't get too involved. I don't want to have to hurt/you.]"+00
+
+;C"尋ね/,ブロン/"
+C"Ask/,Bronwyn/"
+
+;P"「$9なぜその名前を知っているの？もしかして、あなたがブロンウィン？/$9いいえ、そんなはずないわ・・・」"
+P"[$9How do you know that name? Perhaps you're/Bronwyn? $9No, there's no way...]"
+
+;C"尋ね/,優介/"
+C"Ask/,Yuusuke/"
+
+;P"「$9それ誰？」"+00
+P"[$9Who's that?]"+00
+
+;C"尋ね/"
+C"Ask/"
+
+;P"「$9そんなこと、あなたは知らなくて良いのよ」"+00
+P"[$9You're better off not knowing that kind of/thing.]"+00
+
+;C"見る/,アッシ/"
+C"Look/,Ash/"
+
+;P"あなたと背格好は同じ位で、なんとなく顔付きも、似ている様です。"
+P"Your height, stature, and looks appear similar."
+
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"あなたは、森を出て学校に向かいました。"J06
+P"You come out of the forest and head for school."J06
+
+;C"行く/,家/"
+C"Go/,House/"
+
+;P"あなたは、優介の家に向かいました。"J12
+P"You headed to Yuusuke's house."J12
+
+;C"逃げ/"
+C"Escape/"
+
+;P"突然走り出したので、うまく逃げられたようです。"J14
+P"Thanks to running away so suddenly, you seem to/have successfully escaped."J14
+
+;T
+
+;=0005
+
+;P"「$9これ以上深入りしないで。ケガをするわよ」/そう言うと、アッシュは去っていきました。"K0701J14
+P"[$9Don't get involved any further. You'll get/hurt.] With that said, Ash walks away."K0701J14
+
+;S10
+
+;I
+
+;D11P"森の中です。さて、これからどうしましょうか。"
+D11P"It's the forest interior. Well, what now?"
+
+;N
+
+;L"森"129121382342L"学校"031291052317L"街"036142069196L"優介の家"106197114209
+L"Forest"129121382342L"School"031291052317L"Town"036142069196L"Yuusuke's House"106197114209
+
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"一度学校へ行ってみましょう。"J06
+P"Let's go to school for now."J06
+
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"街で何が起こっているのか、行ってみましょう。"=5203
+P"Let's go see what's going on in town."=5203
+
+;J15
+
+;J07
+
+;C"行く/,家/"
+C"Go/,House/"
+
+;P"優介の家に行ってみますか。"J12
+P"Shall we try going to Yuusuke's house?"J12
+
+;C"見る/,森/"
+C"Look/,Forest/"
+
+;P"森は、異様な程静かです。"
+P"The forest is strangely quiet."
+
+;C"尋ね/"
+C"Ask/"
+
+;P"誰にたずねるんです？"
+P"Ask whom?"
+
+;C"調べ/,森/"
+C"Examine/,Forest/"
+
+;?00
+
+;P"さっきから、誰かに見つめられている様な気がします。"+00
+P"For a while, you've had the feeling someone is/watching you."+00
+
+;=5400
+
+;P"何も見つからないみたいてせすが・・・"+00
+P"It seems like you can't find anything, but..."+00
+
+;K0502P"探しているうちに、大きな機械を見つけました。"J08
+K0502P"While looking, you find a big machine."J08
+
+;P"いつもと変らない森です。"
+P"It's a normal forest."
+
+;S11
+
+;I
+
+;D11P"森にやってきました。"
+D11P"You arrive in the forest."
+
+;N
+
+;L"森"129121382342L"学校"031291052317L"街"036142069196L"優介の家"106197114209L"研究所"091291097302
+L"Forest"129121382342L"School"031291052317L"Town"036142069196L"Yuusuke's House"106197114209L"Lab"091291097302
+
+;C"行く/,学校/"
+C"Go/,School/"
+
+;P"学校へ戻ってみましゅう。"J06
+P"Let's try going back to school."J06
+
+;C"行く/,街/"
+C"Go/,Town/"
+
+;P"もう一度街に、行ってみましょう。"J21
+P"Let's try going to town once more."J21
+
+;C"行く/,家/"
+C"Go/,House/"
+
+;P"優介の家にいってみますか。"J20
+P"Shall we try going to Yuusuke's house?"J20
+
+;C"行く/,研究/"
+C"Go/,Lab/"
+
+;P"一旦、研究所に戻りましょう。"J18
+P"For now, let's return to the research facility."J18
+
+;C"見る/,森/"
+C"Look/,Forest/"
+
+;P"森は、異様な程静かです。"
+P"The forest is strangely quiet."
+
+;C"尋ね/"
+C"Ask/"
+
+;P"誰にたずねるんです？"
+P"Ask whom?"
+
+;C"調べ/,森/"
+C"Examine/,Forest/"
+
+;?00
+
+;P"あたりから異様な雰囲気が漂ってきます。"+00
+P"A bizarre atmosphere is emanating from the/vicinity."+00
+
+;P"何もみつからないみたいですが。"+00
+P"It seems you can't find anything."+00
+
+;P"いつもと変らない森です。"
+P"It's an ordinary forest."

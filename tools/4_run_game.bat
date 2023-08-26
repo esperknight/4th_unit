@@ -1,0 +1,2 @@
+copy winx68k.ini x68000\winx68khighspeedv095\winx68k.ini
+x68000\winx68khighspeedv095\WinX68kHighSpeed_eng.exe
